@@ -42,3 +42,5 @@
 .glass-nav a:hover,.glass-nav a:focus-visible,.glass-nav a[aria-current],.about-page .glass-nav a:hover,.about-page .glass-nav a[aria-current],.nav-dropdown-trigger:hover,.about-page .nav-dropdown-trigger:hover,.nav-research.is-open>.nav-dropdown-trigger{background:transparent;border-color:transparent;box-shadow:none;transform:none}
 .glass-nav a:hover,.nav-dropdown-trigger:hover{color:#fff;opacity:.8}
 .about-page .glass-nav a:hover,.about-page .nav-dropdown-trigger:hover{color:#444;opacity:.8}
+
+.floating-header .glass-nav a,.floating-header .glass-nav a:hover,.floating-header .glass-nav a:focus-visible,.floating-header .glass-nav a[aria-current],.floating-header .nav-dropdown-trigger,.floating-header .nav-dropdown-trigger:hover,.floating-header .nav-research.is-open>.nav-dropdown-trigger{background:transparent!important;border-color:transparent!important;box-shadow:none!important;transform:none!important}
