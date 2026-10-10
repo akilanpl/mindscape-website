@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="475" height="285" preserveAspectRatio="xMinYMin meet" viewBox="0 0 475 285" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="475" height="285"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-285)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="270" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,41%,40%); stroke:none;" transform="translate(0,540) scale(1,-1)">HumanEval: local measurements and historical reports</text>
+			<path d="M 135,32 L 135,247 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="129.668" y="19" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,38) scale(1,-1)">0%</text>
+			<path d="M 280,32 L 280,247 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="272.668" y="19" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,38) scale(1,-1)">50%</text>
+			<path d="M 425,32 L 425,247 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="415.668" y="19" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,38) scale(1,-1)">100%</text>
+			<text x="72.6582" y="226.91666666666666" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,453) scale(1,-1)">Qwen 0.5B local</text>
+			<rect x="135" y="218.375" width="166.21951219512192" height="17.083333333333343" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="305.2195121951219" y="223.91666666666666" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,447) scale(1,-1)">57.3%</text>
+			<text x="72.6582" y="192.75" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,385) scale(1,-1)">Qwen 1.5B local</text>
+			<rect x="135" y="184.20833333333334" width="173.29268292682923" height="17.083333333333343" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="312.29268292682923" y="189.75" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,379) scale(1,-1)">59.8%</text>
+			<text x="75.61840000000001" y="158.58333333333334" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,317) scale(1,-1)">GPT-3.5 (2023)</text>
+			<rect x="135" y="150.04166666666669" width="139.49" height="17.083333333333343" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="278.49" y="155.58333333333334" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,311) scale(1,-1)">48.1%</text>
+			<text x="81.76840000000001" y="124.41666666666667" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,248) scale(1,-1)">GPT-4 (2023)</text>
+			<rect x="135" y="115.875" width="194.3" height="17.083333333333343" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="333.3" y="121.41666666666667" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,242) scale(1,-1)">67.0%</text>
+			<text x="77.6602" y="90.25" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,180) scale(1,-1)">Gemini 1.0 Pro</text>
+			<rect x="135" y="81.70833333333333" width="196.33000000000004" height="17.08333333333333" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="335.33000000000004" y="87.25" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,174) scale(1,-1)">67.7%</text>
+			<text x="72.19900000000001" y="56.08333333333334" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,112) scale(1,-1)">Gemini 1.0 Ultra</text>
+			<rect x="135" y="47.54166666666668" width="215.76" height="17.083333333333336" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="354.76" y="53.08333333333334" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,106) scale(1,-1)">74.4%</text>
+			<rect x="140" y="10" width="8" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="153" y="10" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Context only - protocols differ</text>
+		</g>
+	</g>
+</svg>

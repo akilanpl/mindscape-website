@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="475" height="285" preserveAspectRatio="xMinYMin meet" viewBox="0 0 475 285" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="475" height="285"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-285)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="270" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,41%,40%); stroke:none;" transform="translate(0,540) scale(1,-1)">Novel tasks: zero-weight controller comparison</text>
+			<path d="M 135,32 L 135,247 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="129.668" y="19" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,38) scale(1,-1)">0%</text>
+			<path d="M 280,32 L 280,247 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="272.668" y="19" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,38) scale(1,-1)">50%</text>
+			<path d="M 425,32 L 425,247 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="415.668" y="19" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,38) scale(1,-1)">100%</text>
+			<text x="102.03880000000001" y="192.75" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,385) scale(1,-1)">Masked</text>
+			<rect x="135" y="183.25" width="290.0" height="19.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="429.0" y="189.75" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,379) scale(1,-1)">100.0%</text>
+			<text x="92.0102" y="90.25" style="font-family: Times-Roman; font-size: 8.2px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,180) scale(1,-1)">Permissive</text>
+			<rect x="135" y="80.75" width="0" height="19.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="139.0" y="87.25" style="font-family: Times-Roman; font-size: 7.7px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,174) scale(1,-1)">0.0%</text>
+			<rect x="140" y="10" width="8" height="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="153" y="10" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,20) scale(1,-1)">Unique tasks</text>
+		</g>
+	</g>
+</svg>

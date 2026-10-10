@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="475" height="285" preserveAspectRatio="xMinYMin meet" viewBox="0 0 475 285" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="475" height="285"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-285)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="270" style="font-family: Helvetica-Bold; font-size: 11px;fill: rgb(9%,41%,40%); stroke:none;" transform="translate(0,540) scale(1,-1)">Coding learning curves: IID</text>
+			<path d="M 40,43 L 450,43 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="22.336" y="40.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,80) scale(1,-1)">0%</text>
+			<path d="M 40,140.5 L 450,140.5 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="18.336" y="137.5" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,275) scale(1,-1)">50%</text>
+			<path d="M 40,238 L 450,238 Z" style="stroke: rgb(86%,89%,88%); stroke-linecap: butt; stroke-width: 0.5;"/>
+			<text x="14.335999999999999" y="235.0" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,470) scale(1,-1)">100%</text>
+			<text x="36.0" y="26" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">10</text>
+			<text x="172.66666666666666" y="26" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">25</text>
+			<text x="309.3333333333333" y="26" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">50</text>
+			<text x="444.0" y="26" style="font-family: Times-Roman; font-size: 8px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">100</text>
+			<circle cx="40.0" cy="221.75" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<circle cx="176.66666666666666" cy="234.75" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<circle cx="313.3333333333333" cy="104.75" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<circle cx="450.0" cy="62.5" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<polyline points="40 221.75, 176.6667 234.75, 313.3333 104.75, 450 62.5" style="stroke: rgb(9%,41%,40%); stroke-linecap: butt; stroke-width: 1.5; fill: None; fill-rule: evenodd;"/>
+			<rect x="40" y="7" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,41%,40%); fill-rule: evenodd;"/>
+			<text x="51" y="7" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,14) scale(1,-1)">Model only (A)</text>
+			<circle cx="40.0" cy="208.75" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,49%,63%); fill-rule: evenodd;"/>
+			<circle cx="176.66666666666666" cy="238.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,49%,63%); fill-rule: evenodd;"/>
+			<circle cx="313.3333333333333" cy="238.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,49%,63%); fill-rule: evenodd;"/>
+			<circle cx="450.0" cy="238.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,49%,63%); fill-rule: evenodd;"/>
+			<polyline points="40 208.75, 176.6667 238, 313.3333 238, 450 238" style="stroke: rgb(33%,49%,63%); stroke-linecap: butt; stroke-width: 1.5; fill: None; fill-rule: evenodd;"/>
+			<rect x="150" y="7" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(33%,49%,63%); fill-rule: evenodd;"/>
+			<text x="161" y="7" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,14) scale(1,-1)">Structured</text>
+			<circle cx="40.0" cy="202.25000000000003" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,47%,22%); fill-rule: evenodd;"/>
+			<circle cx="176.66666666666666" cy="212.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,47%,22%); fill-rule: evenodd;"/>
+			<circle cx="313.3333333333333" cy="182.75000000000003" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,47%,22%); fill-rule: evenodd;"/>
+			<circle cx="450.0" cy="173.00000000000003" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,47%,22%); fill-rule: evenodd;"/>
+			<polyline points="40 202.25, 176.6667 212, 313.3333 182.75, 450 173" style="stroke: rgb(78%,47%,22%); stroke-linecap: butt; stroke-width: 1.5; fill: None; fill-rule: evenodd;"/>
+			<rect x="260" y="7" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(78%,47%,22%); fill-rule: evenodd;"/>
+			<text x="271" y="7" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,14) scale(1,-1)">Mindscape B</text>
+			<circle cx="40.0" cy="195.74999999999997" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,58%,61%); fill-rule: evenodd;"/>
+			<circle cx="176.66666666666666" cy="231.5" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,58%,61%); fill-rule: evenodd;"/>
+			<circle cx="313.3333333333333" cy="238.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,58%,61%); fill-rule: evenodd;"/>
+			<circle cx="450.0" cy="238.0" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,58%,61%); fill-rule: evenodd;"/>
+			<polyline points="40 195.75, 176.6667 231.5, 313.3333 238, 450 238" style="stroke: rgb(54%,58%,61%); stroke-linecap: butt; stroke-width: 1.5; fill: None; fill-rule: evenodd;"/>
+			<rect x="370" y="7" width="7" height="7" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(54%,58%,61%); fill-rule: evenodd;"/>
+			<text x="381" y="7" style="font-family: Times-Roman; font-size: 7.5px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,14) scale(1,-1)">Mindscape C</text>
+		</g>
+	</g>
+</svg>

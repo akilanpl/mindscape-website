@@ -1,0 +1,3715 @@
+{
+  "source_commit": "33c5b5657b2d19741b7b0ac84388d4f7997f9582",
+  "website_evidence": {
+    "researchCommit": "c530faa20aee2339679a5f2cfe9bea28509d4fb1",
+    "v1Commit": "2862f5ae54443b231abda4255bdd6c652eca2343",
+    "v1Tag": "mindscape-research-complete-v1",
+    "coverage": {
+      "learning": 1920,
+      "lockbox": 400,
+      "audits": 400,
+      "latency": 16
+    },
+    "v2": {
+      "originalCases": 1920,
+      "originalFailures": 734,
+      "newCases": 288,
+      "newFailures": 85,
+      "effect": 1.0,
+      "interval": [
+        0.666228580390205,
+        1.0
+      ],
+      "holmSignificant": 0,
+      "codingIndexed": 2320
+    },
+    "lockbox": [
+      {
+        "condition": "model_only",
+        "split": "test",
+        "successes": 8,
+        "episodes": 50,
+        "accuracy": 0.16,
+        "wilson_ci95": [
+          0.08337420678033404,
+          0.2851421606303499
+        ]
+      },
+      {
+        "condition": "model_only",
+        "split": "ood_test",
+        "successes": 12,
+        "episodes": 50,
+        "accuracy": 0.24,
+        "wilson_ci95": [
+          0.1429739139699173,
+          0.3741268375794292
+        ]
+      },
+      {
+        "condition": "structured",
+        "split": "test",
+        "successes": 50,
+        "episodes": 50,
+        "accuracy": 1.0,
+        "wilson_ci95": [
+          0.9286524008666414,
+          1.0
+        ]
+      },
+      {
+        "condition": "structured",
+        "split": "ood_test",
+        "successes": 22,
+        "episodes": 50,
+        "accuracy": 0.44,
+        "wilson_ci95": [
+          0.3116219921125717,
+          0.5769397197834315
+        ]
+      },
+      {
+        "condition": "mindscape_b",
+        "split": "test",
+        "successes": 45,
+        "episodes": 50,
+        "accuracy": 0.9,
+        "wilson_ci95": [
+          0.7863976856252035,
+          0.9565242350681096
+        ]
+      },
+      {
+        "condition": "mindscape_b",
+        "split": "ood_test",
+        "successes": 24,
+        "episodes": 50,
+        "accuracy": 0.48,
+        "wilson_ci95": [
+          0.34797135286578046,
+          0.6148825510995539
+        ]
+      },
+      {
+        "condition": "mindscape_c",
+        "split": "test",
+        "successes": 49,
+        "episodes": 50,
+        "accuracy": 0.98,
+        "wilson_ci95": [
+          0.8950455641036219,
+          0.9964607407283539
+        ]
+      },
+      {
+        "condition": "mindscape_c",
+        "split": "ood_test",
+        "successes": 18,
+        "episodes": 50,
+        "accuracy": 0.36,
+        "wilson_ci95": [
+          0.24138749651846741,
+          0.49858983123887307
+        ]
+      }
+    ],
+    "latency": [
+      {
+        "condition": "model_only",
+        "n": 4,
+        "p50": 2.5287001245001193,
+        "p95": 2.9951699749499765,
+        "rss": 3802660864,
+        "mpsLive": 3132599552
+      },
+      {
+        "condition": "structured",
+        "n": 4,
+        "p50": 2.891284770499624,
+        "p95": 3.226074864299926,
+        "rss": 3802660864,
+        "mpsLive": 3134778624
+      },
+      {
+        "condition": "mindscape_b",
+        "n": 4,
+        "p50": 35.924512353999944,
+        "p95": 44.30880428300006,
+        "rss": 3802660864,
+        "mpsLive": 3136957696
+      },
+      {
+        "condition": "mindscape_c",
+        "n": 4,
+        "p50": 31.74315270850002,
+        "p95": 32.581375693700465,
+        "rss": 3802660864,
+        "mpsLive": 3139136768
+      }
+    ],
+    "controls": [
+      {
+        "family": "unsigned_3x2",
+        "condition": "trained_mask",
+        "successes": 24,
+        "executions": 24
+      },
+      {
+        "family": "unsigned_3x2",
+        "condition": "trained_permissive",
+        "successes": 20,
+        "executions": 24
+      },
+      {
+        "family": "unsigned_3x2",
+        "condition": "zero_mask",
+        "successes": 24,
+        "executions": 24
+      },
+      {
+        "family": "unsigned_3x2",
+        "condition": "zero_permissive",
+        "successes": 0,
+        "executions": 24
+      },
+      {
+        "family": "signed_4x2",
+        "condition": "trained_mask",
+        "successes": 24,
+        "executions": 24
+      },
+      {
+        "family": "signed_4x2",
+        "condition": "trained_permissive",
+        "successes": 15,
+        "executions": 24
+      },
+      {
+        "family": "signed_4x2",
+        "condition": "zero_mask",
+        "successes": 24,
+        "executions": 24
+      },
+      {
+        "family": "signed_4x2",
+        "condition": "zero_permissive",
+        "successes": 0,
+        "executions": 24
+      },
+      {
+        "family": "unsigned_1x4",
+        "condition": "trained_mask",
+        "successes": 24,
+        "executions": 24
+      },
+      {
+        "family": "unsigned_1x4",
+        "condition": "trained_permissive",
+        "successes": 24,
+        "executions": 24
+      },
+      {
+        "family": "unsigned_1x4",
+        "condition": "zero_mask",
+        "successes": 24,
+        "executions": 24
+      },
+      {
+        "family": "unsigned_1x4",
+        "condition": "zero_permissive",
+        "successes": 0,
+        "executions": 24
+      }
+    ],
+    "effects": [
+      {
+        "family": "unsigned_3x2",
+        "policy": "trained",
+        "difference": 0.16666666666666666,
+        "task_cluster_bootstrap95": [
+          0.0,
+          0.4166666666666667
+        ],
+        "interpretation": "Conditional on three historical models; zero-weight controls are identical, not independent seeds"
+      },
+      {
+        "family": "unsigned_3x2",
+        "policy": "zero",
+        "difference": 1.0,
+        "task_cluster_bootstrap95": [
+          1.0,
+          1.0
+        ],
+        "interpretation": "Conditional on three historical models; zero-weight controls are identical, not independent seeds"
+      },
+      {
+        "family": "signed_4x2",
+        "policy": "trained",
+        "difference": 0.375,
+        "task_cluster_bootstrap95": [
+          0.08333333333333333,
+          0.6666666666666666
+        ],
+        "interpretation": "Conditional on three historical models; zero-weight controls are identical, not independent seeds"
+      },
+      {
+        "family": "signed_4x2",
+        "policy": "zero",
+        "difference": 1.0,
+        "task_cluster_bootstrap95": [
+          1.0,
+          1.0
+        ],
+        "interpretation": "Conditional on three historical models; zero-weight controls are identical, not independent seeds"
+      },
+      {
+        "family": "unsigned_1x4",
+        "policy": "trained",
+        "difference": 0.0,
+        "task_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "interpretation": "Conditional on three historical models; zero-weight controls are identical, not independent seeds"
+      },
+      {
+        "family": "unsigned_1x4",
+        "policy": "zero",
+        "difference": 1.0,
+        "task_cluster_bootstrap95": [
+          1.0,
+          1.0
+        ],
+        "interpretation": "Conditional on three historical models; zero-weight controls are identical, not independent seeds"
+      }
+    ],
+    "sources": [
+      {
+        "path": "experiments/research_v2/release_manifest.json",
+        "url": "https://github.com/akilanpl/mindscape/blob/c530faa20aee2339679a5f2cfe9bea28509d4fb1/experiments/research_v2/release_manifest.json",
+        "sha256": "5c9362598d2104bfb59c061a4a0c0eb0e17f5e8d84f63129e507b15d0a591a78"
+      },
+      {
+        "path": "experiments/research_v2/gap_closure/statistics.json",
+        "url": "https://github.com/akilanpl/mindscape/blob/c530faa20aee2339679a5f2cfe9bea28509d4fb1/experiments/research_v2/gap_closure/statistics.json",
+        "sha256": "aac45f96a81c0b693690559146e07b2bf1c3018c4bf3ec1ffa1f151fe06f4cd2"
+      },
+      {
+        "path": "docs/final_metrics.md",
+        "url": "https://github.com/akilanpl/mindscape/blob/c530faa20aee2339679a5f2cfe9bea28509d4fb1/docs/final_metrics.md",
+        "sha256": "2538c61baae71b7c34afe838cf2a970628767723ff9c9f13e3c0bbd83c360e14"
+      },
+      {
+        "path": "docs/research_v2/gap_closure.md",
+        "url": "https://github.com/akilanpl/mindscape/blob/c530faa20aee2339679a5f2cfe9bea28509d4fb1/docs/research_v2/gap_closure.md",
+        "sha256": "e6e86a95a379e05a6ff00f83e4031e9a675f923482b78cfd0b50699f7401f0ba"
+      }
+    ],
+    "historical": [
+      {
+        "name": "GPT historical reference",
+        "status": "Not yet measured",
+        "detail": "Exact release, access conditions and authorized budget remain unspecified."
+      },
+      {
+        "name": "Gemini historical reference",
+        "status": "Not yet measured",
+        "detail": "No matched experiment has been executed."
+      }
+    ],
+    "archive": {
+      "url": "https://github.com/akilanpl/mindscape/raw/c530faa20aee2339679a5f2cfe9bea28509d4fb1/research_checkpoint/research_v2_gap_closure_2026-10-09/evidence.tar.gz",
+      "bytes": 2417409,
+      "sha256": "d19d18616d32f9360c1226da3f423b7cf0a94d741f898acbf4804cf88d8b8259"
+    }
+  },
+  "coding_learning_cells": [
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 5,
+      "accuracy": 0.25
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 9,
+      "accuracy": 0.45
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 9,
+      "accuracy": 0.45
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 7,
+      "accuracy": 0.35
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 9,
+      "accuracy": 0.45
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 7,
+      "accuracy": 0.35
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 8,
+      "accuracy": 0.4
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 11,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 15,
+      "accuracy": 0.75
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 11,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 18,
+      "accuracy": 0.9
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 11,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 18,
+      "accuracy": 0.9
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 11,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 18,
+      "accuracy": 0.9
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 23,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 2,
+      "planned": 20,
+      "complete": false,
+      "successes": 1,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 23,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 18,
+      "planned": 20,
+      "complete": false,
+      "successes": 16,
+      "accuracy": 0.8888888888888888
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 23,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 18,
+      "accuracy": 0.9
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 23,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 16,
+      "accuracy": 0.8
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 23,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 16,
+      "accuracy": 0.8
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 37,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 17,
+      "accuracy": 0.85
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 37,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 16,
+      "accuracy": 0.8
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 37,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 9,
+      "accuracy": 0.45
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "seed": 37,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 12,
+      "accuracy": 0.6
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 12,
+      "accuracy": 0.6
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 14,
+      "accuracy": 0.7
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 11,
+      "accuracy": 0.55
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 11,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 15,
+      "accuracy": 0.75
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 11,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 11,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 11,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 23,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 16,
+      "accuracy": 0.8
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 23,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 19,
+      "accuracy": 0.95
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 23,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 23,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 37,
+      "budget": 10,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 16,
+      "accuracy": 0.8
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 37,
+      "budget": 25,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 19,
+      "accuracy": 0.95
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 37,
+      "budget": 50,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "seed": 37,
+      "budget": 100,
+      "device": "mps",
+      "precision": "float16",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 4,
+      "accuracy": 0.2
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 7,
+      "accuracy": 0.35
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 5,
+      "accuracy": 0.25
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 4,
+      "accuracy": 0.2
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 3,
+      "accuracy": 0.15
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 4,
+      "accuracy": 0.2
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 2,
+      "accuracy": 0.1
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 11,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 18,
+      "accuracy": 0.9
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 11,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 19,
+      "accuracy": 0.95
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 11,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 0,
+      "accuracy": 0.0
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 11,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 4,
+      "accuracy": 0.2
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 23,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 19,
+      "accuracy": 0.95
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 23,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 23,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 14,
+      "accuracy": 0.7
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 23,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 2,
+      "accuracy": 0.1
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 37,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 18,
+      "accuracy": 0.9
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 37,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 37,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 5,
+      "accuracy": 0.25
+    },
+    {
+      "condition": "model_only",
+      "split": "test",
+      "seed": 37,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 0,
+      "accuracy": 0.0
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 8,
+      "accuracy": 0.4
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 11,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 8,
+      "accuracy": 0.4
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 7,
+      "accuracy": 0.35
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 23,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 8,
+      "accuracy": 0.4
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 6,
+      "accuracy": 0.3
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 7,
+      "accuracy": 0.35
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 10,
+      "accuracy": 0.5
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "seed": 37,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 8,
+      "accuracy": 0.4
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 11,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 17,
+      "accuracy": 0.85
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 11,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 11,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 11,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 23,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 17,
+      "accuracy": 0.85
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 23,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 23,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 23,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 37,
+      "budget": 10,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 17,
+      "accuracy": 0.85
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 37,
+      "budget": 25,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 37,
+      "budget": 50,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "seed": 37,
+      "budget": 100,
+      "device": "cpu",
+      "precision": "float32",
+      "host": "local-Apple-M5",
+      "episodes": 20,
+      "planned": 20,
+      "complete": true,
+      "successes": 20,
+      "accuracy": 1.0
+    }
+  ],
+  "humaneval": {
+    "humaneval_05b_v1": {
+      "protocol": {
+        "dataset": {
+          "repository": "https://github.com/openai/human-eval",
+          "revision": "6d43fb980f9fee3c892a914eda09951f772ad10d",
+          "url": "https://raw.githubusercontent.com/openai/human-eval/6d43fb980f9fee3c892a914eda09951f772ad10d/data/HumanEval.jsonl.gz",
+          "sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+          "tasks": 164,
+          "license": "MIT"
+        },
+        "model_revision": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25",
+        "sampling": "greedy",
+        "samples_per_task": 1,
+        "max_new_tokens": 512,
+        "test_feedback": false,
+        "runtime": "CPython 3.14.7 WASI",
+        "pass_k": {
+          "1": "mean independent completion success",
+          "k>1": "unavailable: one sample per task"
+        },
+        "contamination": "Pretraining exposure unknown; public benchmark cannot establish contamination-free generalization"
+      },
+      "parameters": 494032768,
+      "tasks": 164,
+      "successes": 94,
+      "pass@1": 0.573170731707317,
+      "mean_generation_seconds": 10.1963326633961
+    },
+    "humaneval_15b_v1": {
+      "protocol": {
+        "dataset": {
+          "repository": "https://github.com/openai/human-eval",
+          "revision": "6d43fb980f9fee3c892a914eda09951f772ad10d",
+          "url": "https://raw.githubusercontent.com/openai/human-eval/6d43fb980f9fee3c892a914eda09951f772ad10d/data/HumanEval.jsonl.gz",
+          "sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+          "tasks": 164,
+          "license": "MIT"
+        },
+        "model_revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+        "sampling": "greedy",
+        "samples_per_task": 1,
+        "max_new_tokens": 512,
+        "test_feedback": false,
+        "runtime": "CPython 3.14.7 WASI",
+        "pass_k": {
+          "1": "mean independent completion success",
+          "k>1": "unavailable: one sample per task"
+        },
+        "contamination": "Pretraining exposure unknown; public benchmark cannot establish contamination-free generalization"
+      },
+      "parameters": 1543714304,
+      "tasks": 164,
+      "successes": 98,
+      "pass@1": 0.5975609756097561,
+      "mean_generation_seconds": 9.432171133109676
+    }
+  },
+  "dedicated_latency": [
+    {
+      "condition": "model_only",
+      "episodes": 4,
+      "planned": 4,
+      "measurement_source": "Dedicated cache-disabled stage benchmark",
+      "device_precision_counts": {
+        "mps/float16": 4
+      },
+      "actual_batch_sizes": [
+        1
+      ],
+      "peak_process_rss_bytes": 3802660864,
+      "peak_mps_live_bytes": 3132599552,
+      "peak_mps_driver_bytes": 4389109760,
+      "peak_cuda_allocated_bytes": null,
+      "peak_cuda_reserved_bytes": null,
+      "sequential_episodes_per_hour": 1475.2094699714482,
+      "percentiles": {
+        "total": {
+          "p50": 2.5287001245001193,
+          "p95": 2.9951699749499765,
+          "n": 4
+        },
+        "ttft": {
+          "p50": 0.10764597949992094,
+          "p95": 0.8070860983006238,
+          "n": 4
+        },
+        "response": {
+          "p50": 2.2023833544999434,
+          "p95": 2.6520218813000156,
+          "n": 4
+        },
+        "model_generation": {
+          "p50": 2.2023833544999434,
+          "p95": 2.6520218813000156,
+          "n": 4
+        },
+        "environment_execution": {
+          "p50": 0.00013612449993161135,
+          "p95": 0.0004516401001183111,
+          "n": 4
+        },
+        "verification": {
+          "p50": 0.3319560420000016,
+          "p95": 0.3436878607001745,
+          "n": 4
+        },
+        "test_execution": {
+          "p50": 0.3318179789998794,
+          "p95": 0.34356011874992876,
+          "n": 4
+        }
+      },
+      "caution": "Descriptive sample; stage timers overlap. TTFT is model first-token time after CPU input encoding. Response is per-call wall time including encoding/decoding in dedicated measurements; total is multi-step episode wall time. Batched smoke model durations are shared across requests. Unmeasured timers are not inferred."
+    },
+    {
+      "condition": "structured",
+      "episodes": 4,
+      "planned": 4,
+      "measurement_source": "Dedicated cache-disabled stage benchmark",
+      "device_precision_counts": {
+        "mps/float16": 4
+      },
+      "actual_batch_sizes": [
+        1
+      ],
+      "peak_process_rss_bytes": 3802660864,
+      "peak_mps_live_bytes": 3134778624,
+      "peak_mps_driver_bytes": 4431052800,
+      "peak_cuda_allocated_bytes": null,
+      "peak_cuda_reserved_bytes": null,
+      "sequential_episodes_per_hour": 1252.859663165493,
+      "percentiles": {
+        "total": {
+          "p50": 2.891284770499624,
+          "p95": 3.226074864299926,
+          "n": 4
+        },
+        "ttft": {
+          "p50": 0.3468195834998369,
+          "p95": 0.3796293562498249,
+          "n": 4
+        },
+        "response": {
+          "p50": 2.5587374795004507,
+          "p95": 2.895561100049872,
+          "n": 4
+        },
+        "model_generation": {
+          "p50": 2.5587374795004507,
+          "p95": 2.895561100049872,
+          "n": 4
+        },
+        "environment_execution": {
+          "p50": 0.0006867300003250421,
+          "p95": 0.0008416026992108527,
+          "n": 4
+        },
+        "verification": {
+          "p50": 0.3316854585004876,
+          "p95": 0.33450531509984105,
+          "n": 4
+        },
+        "test_execution": {
+          "p50": 0.33154877100014346,
+          "p95": 0.3343919018002907,
+          "n": 4
+        }
+      },
+      "caution": "Descriptive sample; stage timers overlap. TTFT is model first-token time after CPU input encoding. Response is per-call wall time including encoding/decoding in dedicated measurements; total is multi-step episode wall time. Batched smoke model durations are shared across requests. Unmeasured timers are not inferred."
+    },
+    {
+      "condition": "mindscape_b",
+      "episodes": 4,
+      "planned": 4,
+      "measurement_source": "Dedicated cache-disabled stage benchmark",
+      "device_precision_counts": {
+        "mps/float16": 32
+      },
+      "actual_batch_sizes": [
+        1
+      ],
+      "peak_process_rss_bytes": 3802660864,
+      "peak_mps_live_bytes": 3136957696,
+      "peak_mps_driver_bytes": 4506550272,
+      "peak_cuda_allocated_bytes": null,
+      "peak_cuda_reserved_bytes": null,
+      "sequential_episodes_per_hour": 95.38661046707223,
+      "percentiles": {
+        "total": {
+          "p50": 35.924512353999944,
+          "p95": 44.30880428300006,
+          "n": 4
+        },
+        "ttft": {
+          "p50": 1.1655523545000506,
+          "p95": 1.6721938956499798,
+          "n": 32
+        },
+        "response": {
+          "p50": 4.590948958500576,
+          "p95": 5.841075649850472,
+          "n": 32
+        },
+        "model_generation": {
+          "p50": 35.228675708500305,
+          "p95": 43.44583151340143,
+          "n": 4
+        },
+        "environment_execution": {
+          "p50": 0.0012617284996849776,
+          "p95": 0.0015499980499498632,
+          "n": 4
+        },
+        "verification": {
+          "p50": 0.3748883539997223,
+          "p95": 0.47029650980048243,
+          "n": 4
+        },
+        "test_execution": {
+          "p50": 0.7139516665001793,
+          "p95": 0.8574064588998226,
+          "n": 4
+        }
+      },
+      "caution": "Descriptive sample; stage timers overlap. TTFT is model first-token time after CPU input encoding. Response is per-call wall time including encoding/decoding in dedicated measurements; total is multi-step episode wall time. Batched smoke model durations are shared across requests. Unmeasured timers are not inferred."
+    },
+    {
+      "condition": "mindscape_c",
+      "episodes": 4,
+      "planned": 4,
+      "measurement_source": "Dedicated cache-disabled stage benchmark",
+      "device_precision_counts": {
+        "mps/float16": 32
+      },
+      "actual_batch_sizes": [
+        1
+      ],
+      "peak_process_rss_bytes": 3802660864,
+      "peak_mps_live_bytes": 3139136768,
+      "peak_mps_driver_bytes": 4514938880,
+      "peak_cuda_allocated_bytes": null,
+      "peak_cuda_reserved_bytes": null,
+      "sequential_episodes_per_hour": 117.28219079755843,
+      "percentiles": {
+        "total": {
+          "p50": 31.74315270850002,
+          "p95": 32.581375693700465,
+          "n": 4
+        },
+        "ttft": {
+          "p50": 1.1719996460001312,
+          "p95": 1.6940761644004851,
+          "n": 32
+        },
+        "response": {
+          "p50": 3.9009514585000034,
+          "p95": 4.31798346860005,
+          "n": 32
+        },
+        "model_generation": {
+          "p50": 31.05320908349904,
+          "p95": 31.83074219474984,
+          "n": 4
+        },
+        "environment_execution": {
+          "p50": 0.0014917294993210817,
+          "p95": 0.0035893313990072776,
+          "n": 4
+        },
+        "verification": {
+          "p50": 0.3700127080001039,
+          "p95": 0.38461931249967163,
+          "n": 4
+        },
+        "test_execution": {
+          "p50": 0.6868583330001456,
+          "p95": 0.7454004454003552,
+          "n": 4
+        }
+      },
+      "caution": "Descriptive sample; stage timers overlap. TTFT is model first-token time after CPU input encoding. Response is per-call wall time including encoding/decoding in dedicated measurements; total is multi-step episode wall time. Batched smoke model durations are shared across requests. Unmeasured timers are not inferred."
+    }
+  ],
+  "smollm2_aggregates": [
+    {
+      "condition": "answer_only",
+      "budget": 10,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 1.9516381109982224,
+        "std": 3.367423856193997
+      },
+      "training_time": {
+        "mean": 1.0811209446692374,
+        "std": 0.15530902090881052
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 10,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 3.2101331943340483,
+        "std": 5.5406422931710875
+      },
+      "training_time": {
+        "mean": 1.0811209446692374,
+        "std": 0.15530902090881052
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 25,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0016666666666666668,
+        "std": 0.002886751345948129
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.007665708001392583,
+        "std": 7.618593614096458e-05
+      },
+      "training_time": {
+        "mean": 1.0909503886675036,
+        "std": 0.17005678113721673
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 25,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.011275722002513552,
+        "std": 0.0001925740437594332
+      },
+      "training_time": {
+        "mean": 1.0909503886675036,
+        "std": 0.17005678113721673
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 50,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0033333333333333335,
+        "std": 0.002886751345948129
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.009691583334642928,
+        "std": 0.002384912683151768
+      },
+      "training_time": {
+        "mean": 1.4458711946669307,
+        "std": 0.29333173501657445
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 50,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.013418694332358427,
+        "std": 0.0018820050565177906
+      },
+      "training_time": {
+        "mean": 1.4458711946669307,
+        "std": 0.29333173501657445
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 100,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.006666666666666667,
+        "std": 0.002886751345948129
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.0077606393315363675,
+        "std": 9.716235393230781e-05
+      },
+      "training_time": {
+        "mean": 1.3311641249990014,
+        "std": 0.6008190423365146
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 100,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.011474374664733963,
+        "std": 0.00023364702900325801
+      },
+      "training_time": {
+        "mean": 1.3311641249990014,
+        "std": 0.6008190423365146
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 250,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.023333333333333334,
+        "std": 0.005773502691896257
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.007738999665889423,
+        "std": 0.0001993372366476209
+      },
+      "training_time": {
+        "mean": 2.0589113333335263,
+        "std": 1.7458384827929003
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 250,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.01162644433255385,
+        "std": 0.0003072855973323319
+      },
+      "training_time": {
+        "mean": 2.0589113333335263,
+        "std": 1.7458384827929003
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 500,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.013333333333333332,
+        "std": 0.007637626158259733
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.007809291664064706,
+        "std": 6.162272133551634e-05
+      },
+      "training_time": {
+        "mean": 2.569287277665959,
+        "std": 2.707508954289201
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 500,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.011506291998860737,
+        "std": 0.00032081992969208955
+      },
+      "training_time": {
+        "mean": 2.569287277665959,
+        "std": 2.707508954289201
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 1000,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.05,
+        "std": 0.008660254037844387
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.007645764332361675,
+        "std": 0.00015290869512433905
+      },
+      "training_time": {
+        "mean": 4.138361958668004,
+        "std": 5.397375204984232
+      }
+    },
+    {
+      "condition": "answer_only",
+      "budget": 1000,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.011305875001805058,
+        "std": 0.00011641153017829812
+      },
+      "training_time": {
+        "mean": 4.138361958668004,
+        "std": 5.397375204984232
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 10,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 2.4873712223319067,
+        "std": 4.289390723700834
+      },
+      "training_time": {
+        "mean": 1.0770025696668502,
+        "std": 0.1362619769417917
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 10,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 3.8978408470017407,
+        "std": 6.723484449308749
+      },
+      "training_time": {
+        "mean": 1.0770025696668502,
+        "std": 0.1362619769417917
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 25,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.010674889000559537,
+        "std": 6.719487835101095e-05
+      },
+      "training_time": {
+        "mean": 1.1076344583343598,
+        "std": 0.2320912588182482
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 25,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.01610712533147307,
+        "std": 8.035248048344529e-05
+      },
+      "training_time": {
+        "mean": 1.1076344583343598,
+        "std": 0.2320912588182482
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 50,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0016666666666666668,
+        "std": 0.002886751345948129
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.012781652665580623,
+        "std": 0.0016319846096352745
+      },
+      "training_time": {
+        "mean": 1.437541457999032,
+        "std": 0.2624964147675979
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 50,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.01880061099654995,
+        "std": 0.0023126406383865107
+      },
+      "training_time": {
+        "mean": 1.437541457999032,
+        "std": 0.2624964147675979
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 100,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.006666666666666667,
+        "std": 0.002886751345948129
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.010809610997966956,
+        "std": 8.774944917351695e-05
+      },
+      "training_time": {
+        "mean": 1.6277577919997082,
+        "std": 1.0588649282803604
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 100,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.016155403000690665,
+        "std": 0.0001951168832945942
+      },
+      "training_time": {
+        "mean": 1.6277577919997082,
+        "std": 1.0588649282803604
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 250,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.008333333333333333,
+        "std": 0.005773502691896257
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.012007153001225864,
+        "std": 0.0008572522651730458
+      },
+      "training_time": {
+        "mean": 2.6720192919989736,
+        "std": 2.8785189491876815
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 250,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.018109250001240678,
+        "std": 0.0020811515520740443
+      },
+      "training_time": {
+        "mean": 2.6720192919989736,
+        "std": 2.8785189491876815
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 500,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.023333333333333334,
+        "std": 0.007637626158259733
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.010981958332801392,
+        "std": 0.00023499189948246024
+      },
+      "training_time": {
+        "mean": 3.5771411806660276,
+        "std": 4.470334866830512
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 500,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.016350721671187785,
+        "std": 0.0002986193673192349
+      },
+      "training_time": {
+        "mean": 3.5771411806660276,
+        "std": 4.470334866830512
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 1000,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.05333333333333334,
+        "std": 0.010408329997330665
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.010850500002561603,
+        "std": 0.0001574232990856515
+      },
+      "training_time": {
+        "mean": 6.088066611334701,
+        "std": 8.809293567319653
+      }
+    },
+    {
+      "condition": "structured",
+      "budget": 1000,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": null,
+        "std": null
+      },
+      "inference_time": {
+        "mean": 0.01609651400212897,
+        "std": 0.00019589283369405512
+      },
+      "training_time": {
+        "mean": 6.088066611334701,
+        "std": 8.809293567319653
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 10,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 7.328076708666534,
+        "std": 7.086063334531856
+      },
+      "training_time": {
+        "mean": 0.8995532780002881,
+        "std": 0.4108005122145165
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 10,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 30.810439805667556,
+        "std": 23.63479291266992
+      },
+      "training_time": {
+        "mean": 0.8995532780002881,
+        "std": 0.4108005122145165
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 25,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.02,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.02,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.02,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.02,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 3.2376554166670153,
+        "std": 2.511731381682414
+      },
+      "training_time": {
+        "mean": 0.8483620696667155,
+        "std": 0.3038690886616371
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 25,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "grounded_rate": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "goal_success_rate": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "trajectory_validity": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "inference_time": {
+        "mean": 17.5731569306663,
+        "std": 10.245868592602571
+      },
+      "training_time": {
+        "mean": 0.8483620696667155,
+        "std": 0.3038690886616371
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 50,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.03,
+        "std": 0.013228756555322952
+      },
+      "grounded_rate": {
+        "mean": 0.03,
+        "std": 0.013228756555322952
+      },
+      "goal_success_rate": {
+        "mean": 0.03,
+        "std": 0.013228756555322952
+      },
+      "trajectory_validity": {
+        "mean": 0.03,
+        "std": 0.013228756555322952
+      },
+      "inference_time": {
+        "mean": 2.5173513469999307,
+        "std": 1.194868701891309
+      },
+      "training_time": {
+        "mean": 1.0942871809990418,
+        "std": 0.3514308305801395
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 50,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 16.52468908300216,
+        "std": 6.785809310347055
+      },
+      "training_time": {
+        "mean": 1.0942871809990418,
+        "std": 0.3514308305801395
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 100,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.13333333333333333,
+        "std": 0.010408329997330658
+      },
+      "grounded_rate": {
+        "mean": 0.13,
+        "std": 0.0050000000000000044
+      },
+      "goal_success_rate": {
+        "mean": 0.13,
+        "std": 0.0050000000000000044
+      },
+      "trajectory_validity": {
+        "mean": 0.13,
+        "std": 0.0050000000000000044
+      },
+      "inference_time": {
+        "mean": 1.2130034026655874,
+        "std": 0.5776678103059764
+      },
+      "training_time": {
+        "mean": 0.9659724303346593,
+        "std": 0.4511726577364951
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 100,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.008888888888888889,
+        "std": 0.0019245008972987524
+      },
+      "grounded_rate": {
+        "mean": 0.0077777777777777776,
+        "std": 0.003849001794597505
+      },
+      "goal_success_rate": {
+        "mean": 0.0077777777777777776,
+        "std": 0.003849001794597505
+      },
+      "trajectory_validity": {
+        "mean": 0.0077777777777777776,
+        "std": 0.003849001794597505
+      },
+      "inference_time": {
+        "mean": 10.32809169433555,
+        "std": 4.193844124848548
+      },
+      "training_time": {
+        "mean": 0.9659724303346593,
+        "std": 0.4511726577364951
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 250,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.30333333333333334,
+        "std": 0.010408329997330672
+      },
+      "grounded_rate": {
+        "mean": 0.30166666666666664,
+        "std": 0.012583057392117927
+      },
+      "goal_success_rate": {
+        "mean": 0.30166666666666664,
+        "std": 0.012583057392117927
+      },
+      "trajectory_validity": {
+        "mean": 0.30166666666666664,
+        "std": 0.012583057392117927
+      },
+      "inference_time": {
+        "mean": 0.9561781666658741,
+        "std": 0.8041679064344536
+      },
+      "training_time": {
+        "mean": 1.8773168053327633,
+        "std": 1.766661903258406
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 250,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.015555555555555557,
+        "std": 0.00693888666488711
+      },
+      "grounded_rate": {
+        "mean": 0.014444444444444446,
+        "std": 0.005091750772173155
+      },
+      "goal_success_rate": {
+        "mean": 0.014444444444444446,
+        "std": 0.005091750772173155
+      },
+      "trajectory_validity": {
+        "mean": 0.014444444444444446,
+        "std": 0.005091750772173155
+      },
+      "inference_time": {
+        "mean": 6.833288138999099,
+        "std": 3.0193257916906946
+      },
+      "training_time": {
+        "mean": 1.8773168053327633,
+        "std": 1.766661903258406
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 500,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.38,
+        "std": 0.008660254037844393
+      },
+      "grounded_rate": {
+        "mean": 0.38,
+        "std": 0.008660254037844393
+      },
+      "goal_success_rate": {
+        "mean": 0.38,
+        "std": 0.008660254037844393
+      },
+      "trajectory_validity": {
+        "mean": 0.38,
+        "std": 0.008660254037844393
+      },
+      "inference_time": {
+        "mean": 0.45871070833527483,
+        "std": 0.06502761411465675
+      },
+      "training_time": {
+        "mean": 1.9272855973322294,
+        "std": 2.0075240050234022
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 500,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.04666666666666667,
+        "std": 0.003333333333333334
+      },
+      "grounded_rate": {
+        "mean": 0.043333333333333335,
+        "std": 0.005773502691896259
+      },
+      "goal_success_rate": {
+        "mean": 0.043333333333333335,
+        "std": 0.005773502691896259
+      },
+      "trajectory_validity": {
+        "mean": 0.043333333333333335,
+        "std": 0.005773502691896259
+      },
+      "inference_time": {
+        "mean": 4.237181222335494,
+        "std": 1.8683988013595982
+      },
+      "training_time": {
+        "mean": 1.9272855973322294,
+        "std": 2.0075240050234022
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 1000,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.41500000000000004,
+        "std": 0.021794494717703356
+      },
+      "grounded_rate": {
+        "mean": 0.41500000000000004,
+        "std": 0.021794494717703356
+      },
+      "goal_success_rate": {
+        "mean": 0.41500000000000004,
+        "std": 0.021794494717703356
+      },
+      "trajectory_validity": {
+        "mean": 0.41500000000000004,
+        "std": 0.021794494717703356
+      },
+      "inference_time": {
+        "mean": 0.38326586132946733,
+        "std": 0.08426802520198032
+      },
+      "training_time": {
+        "mean": 2.5673793749980782,
+        "std": 2.947447072820766
+      }
+    },
+    {
+      "condition": "trajectory",
+      "budget": 1000,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.061111111111111116,
+        "std": 0.013471506281091268
+      },
+      "grounded_rate": {
+        "mean": 0.05888888888888889,
+        "std": 0.013877773329774221
+      },
+      "goal_success_rate": {
+        "mean": 0.05888888888888889,
+        "std": 0.013877773329774221
+      },
+      "trajectory_validity": {
+        "mean": 0.05888888888888889,
+        "std": 0.013877773329774221
+      },
+      "inference_time": {
+        "mean": 2.5842424583339985,
+        "std": 0.6768021593894246
+      },
+      "training_time": {
+        "mean": 2.5673793749980782,
+        "std": 2.947447072820766
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 10,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 5.6927669306654325,
+        "std": 1.0986227979566678
+      },
+      "training_time": {
+        "mean": 0.7097608193313741,
+        "std": 0.007771383310286481
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 10,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 34.67329620866561,
+        "std": 1.3180722600163084
+      },
+      "training_time": {
+        "mean": 0.7097608193313741,
+        "std": 0.007771383310286481
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 25,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.005,
+        "std": 0.008660254037844387
+      },
+      "grounded_rate": {
+        "mean": 0.0033333333333333335,
+        "std": 0.005773502691896258
+      },
+      "goal_success_rate": {
+        "mean": 0.0033333333333333335,
+        "std": 0.005773502691896258
+      },
+      "trajectory_validity": {
+        "mean": 0.0033333333333333335,
+        "std": 0.005773502691896258
+      },
+      "inference_time": {
+        "mean": 2.7986615969978934,
+        "std": 2.4757450286643454
+      },
+      "training_time": {
+        "mean": 0.84018994433427,
+        "std": 0.1099657036303482
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 25,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 16.956090570000622,
+        "std": 6.838151643167684
+      },
+      "training_time": {
+        "mean": 0.84018994433427,
+        "std": 0.1099657036303482
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 50,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.005,
+        "std": 0.005
+      },
+      "grounded_rate": {
+        "mean": 0.005,
+        "std": 0.005
+      },
+      "goal_success_rate": {
+        "mean": 0.005,
+        "std": 0.005
+      },
+      "trajectory_validity": {
+        "mean": 0.005,
+        "std": 0.005
+      },
+      "inference_time": {
+        "mean": 2.8981863193354607,
+        "std": 1.310647845291022
+      },
+      "training_time": {
+        "mean": 1.2387120556668378,
+        "std": 0.30679464349118807
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 50,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 18.108462083335326,
+        "std": 10.539728335742462
+      },
+      "training_time": {
+        "mean": 1.2387120556668378,
+        "std": 0.30679464349118807
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 100,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.02666666666666667,
+        "std": 0.025166114784235832
+      },
+      "grounded_rate": {
+        "mean": 0.02666666666666667,
+        "std": 0.025166114784235832
+      },
+      "goal_success_rate": {
+        "mean": 0.02666666666666667,
+        "std": 0.025166114784235832
+      },
+      "trajectory_validity": {
+        "mean": 0.02666666666666667,
+        "std": 0.025166114784235832
+      },
+      "inference_time": {
+        "mean": 1.172979055333902,
+        "std": 0.5401806057931122
+      },
+      "training_time": {
+        "mean": 1.2604333333341249,
+        "std": 0.10524273261739676
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 100,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 10.418217819664278,
+        "std": 1.7778289739601638
+      },
+      "training_time": {
+        "mean": 1.2604333333341249,
+        "std": 0.10524273261739676
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 250,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.09666666666666666,
+        "std": 0.03214550253664318
+      },
+      "grounded_rate": {
+        "mean": 0.09333333333333334,
+        "std": 0.02886751345948129
+      },
+      "goal_success_rate": {
+        "mean": 0.09333333333333334,
+        "std": 0.02886751345948129
+      },
+      "trajectory_validity": {
+        "mean": 0.09333333333333334,
+        "std": 0.02886751345948129
+      },
+      "inference_time": {
+        "mean": 1.669257374999385,
+        "std": 0.1570733739511841
+      },
+      "training_time": {
+        "mean": 2.0282579166693417,
+        "std": 0.2667708793898919
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 250,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "grounded_rate": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "goal_success_rate": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "trajectory_validity": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "inference_time": {
+        "mean": 9.928535875000913,
+        "std": 1.4912973927264725
+      },
+      "training_time": {
+        "mean": 2.0282579166693417,
+        "std": 0.2667708793898919
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 500,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.15,
+        "std": 0.03605551275463989
+      },
+      "grounded_rate": {
+        "mean": 0.15,
+        "std": 0.03605551275463989
+      },
+      "goal_success_rate": {
+        "mean": 0.15,
+        "std": 0.03605551275463989
+      },
+      "trajectory_validity": {
+        "mean": 0.15,
+        "std": 0.03605551275463989
+      },
+      "inference_time": {
+        "mean": 0.6041505696678845,
+        "std": 0.26794382801253286
+      },
+      "training_time": {
+        "mean": 2.979347194331543,
+        "std": 0.043506992390149914
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 500,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "grounded_rate": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "goal_success_rate": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "trajectory_validity": {
+        "mean": 0.0011111111111111111,
+        "std": 0.0019245008972987527
+      },
+      "inference_time": {
+        "mean": 5.35703005566999,
+        "std": 1.5476649440771832
+      },
+      "training_time": {
+        "mean": 2.979347194331543,
+        "std": 0.043506992390149914
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 1000,
+      "split": "test",
+      "seeds": 3,
+      "examples_per_seed": 200,
+      "accuracy": {
+        "mean": 0.19166666666666668,
+        "std": 0.03013856886670854
+      },
+      "grounded_rate": {
+        "mean": 0.19166666666666668,
+        "std": 0.03013856886670854
+      },
+      "goal_success_rate": {
+        "mean": 0.19166666666666668,
+        "std": 0.03013856886670854
+      },
+      "trajectory_validity": {
+        "mean": 0.19166666666666668,
+        "std": 0.03013856886670854
+      },
+      "inference_time": {
+        "mean": 0.7666486670010878,
+        "std": 0.422221764943318
+      },
+      "training_time": {
+        "mean": 5.198369764002564,
+        "std": 0.05073478732290035
+      }
+    },
+    {
+      "condition": "experiential",
+      "budget": 1000,
+      "split": "ood_test",
+      "seeds": 3,
+      "examples_per_seed": 300,
+      "accuracy": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "grounded_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "goal_success_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "trajectory_validity": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "inference_time": {
+        "mean": 6.296846722330277,
+        "std": 1.5334611743648279
+      },
+      "training_time": {
+        "mean": 5.198369764002564,
+        "std": 0.05073478732290035
+      }
+    }
+  ],
+  "historical_references": {
+    "GPT-3.5": 48.1,
+    "GPT-4": 67.0,
+    "Gemini 1.0 Pro": 67.7,
+    "Gemini 1.0 Ultra": 74.4
+  },
+  "comparison_warning": "Historical report values use different protocols and are not direct matched evaluations."
+}
