@@ -18,4 +18,4 @@ The two-step form posts to FormSubmit for akilanpalaniyappan105@gmail.com. A set
 
 Report statements are scoped to the preserved research evidence. Historical validation counts are not new production tests. No deployment security certification is claimed.
 
-Hero media: original 12-second silent interface animation showing the conceptual observe–act–verify–remember loop. The split introduction uses the shared OpenAI Sans typography, white background, borderless glass navigation, and responsive stacked layout. The animation is an illustration, not an experimental recording.
+Hero media: original 10.25-second silent cinematic portrait montage, made from generated photographs with gentle camera movement and cross-dissolves. It illustrates studying entities, mapping relationships, and testing a structure. This is a conceptual illustration, not a recorded AI experiment or live-action video generation. Home, About, Research Overview, and Architecture communicate the approved concept-first research vision, with intended benefits distinguished from measured results.
