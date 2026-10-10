@@ -1,3 +1,9 @@
+const video=document.querySelector('#hero-video');
+function keepPlaying(){if(video)video.play().catch(()=>{});}
+video?.addEventListener('canplay',keepPlaying);
+video?.addEventListener('pause',()=>{if(!document.hidden)keepPlaying()});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)keepPlaying()});
+keepPlaying();
 const sections = {
   about: {title:'About Mindscape', text:'Mindscape is an experimental architecture for explicit state, bounded actions, memory, and verification around learned policies. It studies how an inspectable execution process can support grounded work.', link:'https://github.com/akilanpl/mindscape', label:'Explore the project ↗'},
   research: {title:'Research', text:'The frozen coding lockbox covers 100 independent tasks and 400 condition/task executions. Mindscape C achieved 49/50 repairs on IID tasks and 18/50 on structural OOD tasks. Unequal supervision and interaction budgets limit architecture-only conclusions.', link:'assets/Mindscape-Research-Report.pdf',label:'Read the research report ↗'},

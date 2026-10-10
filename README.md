@@ -1,6 +1,6 @@
 # Mindscape website
 
-Mindscape’s complete static research website: cinematic home, About, research overview/index/reports, Advancements, Architecture, Safety Overview, Deployment Safety, Resources, and Contact.
+Mindscape’s complete static research website: cinematic video home, About, research overview/index/reports, Advancements, Architecture, Safety Overview, Deployment Safety, Resources, and Contact.
 
 ## Local preview
 
@@ -17,3 +17,5 @@ The two-step form posts to FormSubmit for akilanpalaniyappan105@gmail.com. A set
 ## Evidence
 
 Report statements are scoped to the preserved research evidence. Historical validation counts are not new production tests. No deployment security certification is claimed.
+
+Hero media: silent 9-second continuous loop. Desktop rendition is Lanczos-upscaled 2160×3840 from the supplied 720×1280 portrait video; mobile serves the original-resolution silent rendition. Upscaling does not create native 4K detail. Bodoni Moda (OFL license included) supplies the reference-inspired pink serif wordmark.
