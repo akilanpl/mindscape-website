@@ -31,3 +31,6 @@
 .hero .developer-text span{color:#fff}
 .hero .developer-link:hover .developer-text,.hero .developer-link:focus-visible .developer-text{opacity:1;transform:translateX(0)}
 @media(prefers-reduced-motion:reduce){.hero .developer-link,.hero .developer-text{transition:none}}
+
+/* Keep navigation typography aligned with the About page. */
+.glass-nav,.glass-nav a,.nav-dropdown-trigger{font-family:var(--font-reading);font-weight:400;letter-spacing:0}.glass-nav>a,.nav-dropdown-trigger{font-size:14px;line-height:20px}.glass-nav .research-menu a{font-size:14px;line-height:20px}@media(max-width:760px){.glass-nav>a,.nav-dropdown-trigger{font-size:12px}}@media(max-width:540px){.glass-nav>a,.nav-dropdown-trigger{font-size:10px}}
