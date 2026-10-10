@@ -1,0 +1,1 @@
+const video=document.querySelector('#hero-video'); const play=()=>video.play().catch(()=>{});video.addEventListener('canplay',play);document.addEventListener('visibilitychange',()=>{if(!document.hidden)play()});play();

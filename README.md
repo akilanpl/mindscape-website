@@ -18,4 +18,4 @@ The two-step form posts to FormSubmit for akilanpalaniyappan105@gmail.com. A set
 
 Report statements are scoped to the preserved research evidence. Historical validation counts are not new production tests. No deployment security certification is claimed.
 
-Hero media: silent 6.47-second continuous loop from IHERO.mov. Desktop serves a Lanczos-upscaled 3840×2160 rendition of the supplied 1280×720 video; mobile serves a silent 1280×720 rendition. Upscaling does not create native 4K detail. Bodoni Moda (OFL license included) supplies the pure white serif wordmark. The compact GitHub link expands smoothly into a glass panel on hover or keyboard focus.
+Hero media: original 12-second silent interface animation showing the conceptual observe–act–verify–remember loop. The split introduction uses the shared OpenAI Sans typography, white background, borderless glass navigation, and responsive stacked layout. The animation is an illustration, not an experimental recording.
