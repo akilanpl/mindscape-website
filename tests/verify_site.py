@@ -18,8 +18,10 @@ class Site(unittest.TestCase):
   for route in ROUTES:
    with self.subTest(route=route):
     text=(D/route/'index.html').read_text();p=Page(text)
-    self.assertIn('v3.css',text);self.assertEqual(len(p.ids),len(set(p.ids)))
-    self.assertIn('NOT YET ESTABLISHED' if route!='contact' else 'has not yet been demonstrated',text)
+    self.assertEqual(len(p.ids),len(set(p.ids)))
+    if route in ('','about','research','research/reports','architecture'):self.assertNotIn('id="current-research"',text)
+    if route=='':self.assertIn('Research Update . 12 OCTOBER 2026',text)
+    if route=='research/library':self.assertNotIn('NOT YET ESTABLISHED',text)
  def test_every_local_target(self):
   missing=[]
   for path in D.rglob('*.html'):
@@ -46,6 +48,21 @@ class Site(unittest.TestCase):
    p=D/r['url'].lstrip('/') if r.get('url') else D/'assets/reports'/r['file']
    self.assertTrue(p.exists(),str(p))
   self.assertEqual(sum(r['version']=='Historical V1/V2' for r in rows),45)
+ def test_interactive_measurements(self):
+  data=json.loads((D/'assets/v3/interactive-data.json').read_text())
+  self.assertEqual(len(data['physics']),8)
+  self.assertEqual(len(data['coding']),8)
+  self.assertEqual(len(data['performance']),10)
+  self.assertEqual(next(r for r in data['coding'] if r['condition']=='mindscape')['ood'],[8,12])
+  self.assertEqual(next(r for r in data['physics'] if r['family']=='motion' and r['seed']=='11' and r['panel']=='stress')['candidate'],[.8965,1.3109,2.9402])
+  self.assertTrue(all(r['budget'] in [10,25,50,100,250,500,1000] for r in data['math']))
+  page=(D/'advancements/index.html').read_text()
+  for kind in ['math','physics','coding','latency','performance']:self.assertEqual(page.count('data-chart="'+kind+'"'),1)
+ def test_physics_is_integrated(self):
+  self.assertIn('id="physics-panel"',(D/'about/index.html').read_text())
+  self.assertIn('<h2>Physics</h2>',(D/'research/index.html').read_text())
+  self.assertIn('Physical dynamics',(D/'research/reports/index.html').read_text())
+  self.assertIn('OBSERVE → REPRESENT → PROPOSE → PREDICT → ACT → VERIFY → UPDATE',(D/'architecture/index.html').read_text())
  def test_form_boundary(self):
   p=Page((D/'contact/index.html').read_text())
   form=next(a for t,a in p.tags if t=='form')

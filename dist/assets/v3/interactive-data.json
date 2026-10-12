@@ -1,0 +1,3801 @@
+{
+  "math": [
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.0038490017945975053,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.05555555555555556,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.008888888888888889,
+      "seed_sample_sd": 0.0038490017945975053,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.0044444444444444444,
+      "seed_sample_sd": 0.0038490017945975053,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.006666666666666667,
+      "seed_sample_sd": 0.006666666666666667,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.017777777777777778,
+      "seed_sample_sd": 0.003849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.05555555555555556,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.02666666666666667,
+      "seed_sample_sd": 0.006666666666666666,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.013333333333333334,
+      "seed_sample_sd": 0.006666666666666667,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "answer_only",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.006666666666666667,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.05555555555555556,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.03849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.07777777777777778,
+      "seed_sample_sd": 0.01924500897298753,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.10888888888888888,
+      "seed_sample_sd": 0.007698003589195004,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.05555555555555556,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.17777777777777778,
+      "seed_sample_sd": 0.010183501544346319,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.3333333333333333,
+      "seed_sample_sd": 0.05773502691896257,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.23555555555555555,
+      "seed_sample_sd": 0.010183501544346319,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.2333333333333333,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.2111111111111111,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.2111111111111111,
+      "seed_sample_sd": 0.038490017945975064,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.5222222222222221,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.2688888888888889,
+      "seed_sample_sd": 0.016777409856157218,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.27777777777777773,
+      "seed_sample_sd": 0.05091750772173154,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.25555555555555554,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.611111111111111,
+      "seed_sample_sd": 0.03849001794597504,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.006666666666666667,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.05555555555555556,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.03849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.07777777777777778,
+      "seed_sample_sd": 0.01924500897298753,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.09555555555555556,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.03333333333333333,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.17777777777777778,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.12666666666666668,
+      "seed_sample_sd": 0.013333333333333343,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 0.03333333333333333,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.15555555555555556,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.15555555555555556,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.22222222222222224,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.1822222222222222,
+      "seed_sample_sd": 0.02143033502442879,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.12222222222222223,
+      "seed_sample_sd": 0.06938886664887109,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.22222222222222224,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.37777777777777777,
+      "seed_sample_sd": 0.019245008972987553,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.18444444444444444,
+      "seed_sample_sd": 0.0038490017945975136,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.12222222222222223,
+      "seed_sample_sd": 0.08388704928078612,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.050917507721731564,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.050917507721731564,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.4222222222222222,
+      "seed_sample_sd": 0.08388704928078612,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.008888888888888889,
+      "seed_sample_sd": 0.0038490017945975053,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.015555555555555557,
+      "seed_sample_sd": 0.003849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.07777777777777778,
+      "seed_sample_sd": 0.01924500897298753,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.10222222222222221,
+      "seed_sample_sd": 0.003849001794597506,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.18000000000000002,
+      "seed_sample_sd": 0.006666666666666668,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.3444444444444444,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.23555555555555555,
+      "seed_sample_sd": 0.013877773329774218,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.24444444444444446,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.2111111111111111,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.2111111111111111,
+      "seed_sample_sd": 0.038490017945975064,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.5111111111111111,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.27111111111111114,
+      "seed_sample_sd": 0.013877773329774223,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.27777777777777773,
+      "seed_sample_sd": 0.05091750772173154,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.26666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.611111111111111,
+      "seed_sample_sd": 0.03849001794597504,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.008888888888888889,
+      "seed_sample_sd": 0.0038490017945975053,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.015555555555555557,
+      "seed_sample_sd": 0.003849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.07777777777777778,
+      "seed_sample_sd": 0.01924500897298753,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.08888888888888889,
+      "seed_sample_sd": 0.0038490017945975057,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.17777777777777778,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.14444444444444446,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.13777777777777778,
+      "seed_sample_sd": 0.010183501544346307,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 0.03333333333333333,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.15555555555555556,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.26666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.18444444444444444,
+      "seed_sample_sd": 0.013877773329774223,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.11111111111111112,
+      "seed_sample_sd": 0.08388704928078611,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.22222222222222224,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.39999999999999997,
+      "seed_sample_sd": 0.033333333333333354,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.17555555555555558,
+      "seed_sample_sd": 0.021430335024428798,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.09999999999999999,
+      "seed_sample_sd": 0.06666666666666667,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.06938886664887109,
+      "seeds": 3
+    },
+    {
+      "model": "Compact neural",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.3888888888888889,
+      "seed_sample_sd": 0.10715167512214395,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.008888888888888889,
+      "seed_sample_sd": 0.0038490017945975053,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.017777777777777778,
+      "seed_sample_sd": 0.007698003589195011,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.03849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.05555555555555555,
+      "seed_sample_sd": 0.007698003589195007,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.09999999999999999,
+      "seed_sample_sd": 0.03333333333333333,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.11111111111111112,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.06666666666666667,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.11111111111111112,
+      "seed_sample_sd": 0.013877773329774221,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.05555555555555556,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.11111111111111112,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.19333333333333336,
+      "seed_sample_sd": 0.017638342073763937,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.41111111111111115,
+      "seed_sample_sd": 0.10183501544346311,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.24888888888888885,
+      "seed_sample_sd": 0.02143033502442878,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.22222222222222224,
+      "seed_sample_sd": 0.05091750772173156,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.24444444444444446,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.5777777777777778,
+      "seed_sample_sd": 0.05091750772173154,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.3133333333333333,
+      "seed_sample_sd": 0.04666666666666664,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.3,
+      "seed_sample_sd": 0.033333333333333326,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.1111111111111111,
+      "seed_sample_sd": 0.19245008972987526,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.22222222222222224,
+      "seed_sample_sd": 0.03849001794597504,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.2888888888888889,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "concepts",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.6444444444444444,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.008888888888888889,
+      "seed_sample_sd": 0.0038490017945975053,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.011111111111111112,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.017777777777777778,
+      "seed_sample_sd": 0.007698003589195011,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.03849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.05555555555555555,
+      "seed_sample_sd": 0.007698003589195007,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.09999999999999999,
+      "seed_sample_sd": 0.03333333333333333,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.11111111111111112,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.06666666666666667,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.10888888888888888,
+      "seed_sample_sd": 0.015396007178390023,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.11111111111111112,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.13999999999999999,
+      "seed_sample_sd": 0.006666666666666668,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.12222222222222223,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.17777777777777778,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.2333333333333333,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.17777777777777778,
+      "seed_sample_sd": 0.030061665018819295,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.11111111111111112,
+      "seed_sample_sd": 0.0769800358919501,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.2111111111111111,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.37777777777777777,
+      "seed_sample_sd": 0.0693888666488711,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.26,
+      "seed_sample_sd": 0.048074017006186534,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.2111111111111111,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.1111111111111111,
+      "seed_sample_sd": 0.19245008972987526,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.22222222222222224,
+      "seed_sample_sd": 0.03849001794597504,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.27777777777777773,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_memory",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.4777777777777778,
+      "seed_sample_sd": 0.03849001794597504,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.006666666666666667,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.017777777777777778,
+      "seed_sample_sd": 0.007698003589195011,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.03849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.04888888888888889,
+      "seed_sample_sd": 0.0076980035891950115,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.08888888888888889,
+      "seed_sample_sd": 0.01924500897298753,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.05555555555555555,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.10888888888888888,
+      "seed_sample_sd": 0.003849001794597498,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.1977777777777778,
+      "seed_sample_sd": 0.023412563895228305,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.2111111111111111,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.41111111111111115,
+      "seed_sample_sd": 0.10183501544346311,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.25777777777777783,
+      "seed_sample_sd": 0.020367003088692638,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.25555555555555554,
+      "seed_sample_sd": 0.03849001794597504,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.24444444444444446,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.5888888888888889,
+      "seed_sample_sd": 0.03849001794597504,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.2888888888888889,
+      "seed_sample_sd": 0.007698003589194996,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.3,
+      "seed_sample_sd": 0.033333333333333326,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.2888888888888889,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "no_planning",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.6555555555555556,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "all",
+      "mean": 0.006666666666666667,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "sign_change",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 10,
+      "family": "composition",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "all",
+      "mean": 0.017777777777777778,
+      "seed_sample_sd": 0.007698003589195011,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "digit_composition",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "sign_change",
+      "mean": 0.03333333333333333,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 25,
+      "family": "composition",
+      "mean": 0.022222222222222223,
+      "seed_sample_sd": 0.03849001794597505,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "all",
+      "mean": 0.04888888888888889,
+      "seed_sample_sd": 0.0076980035891950115,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "length",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "digit_composition",
+      "mean": 0.08888888888888889,
+      "seed_sample_sd": 0.01924500897298753,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "sign_change",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 50,
+      "family": "composition",
+      "mean": 0.05555555555555555,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "all",
+      "mean": 0.10666666666666667,
+      "seed_sample_sd": 0.006666666666666661,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "length",
+      "mean": 0.044444444444444446,
+      "seed_sample_sd": 0.019245008972987525,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "digit_composition",
+      "mean": 0.10000000000000002,
+      "seed_sample_sd": 1.6996749443881478e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 100,
+      "family": "composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "all",
+      "mean": 0.15555555555555556,
+      "seed_sample_sd": 0.02523959264800121,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "length",
+      "mean": 0.15555555555555556,
+      "seed_sample_sd": 0.05091750772173156,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "digit_composition",
+      "mean": 0.16666666666666666,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "sign_change",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.01924500897298754,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 250,
+      "family": "composition",
+      "mean": 0.26666666666666666,
+      "seed_sample_sd": 0.05773502691896256,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "all",
+      "mean": 0.18666666666666668,
+      "seed_sample_sd": 0.017638342073763937,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "length",
+      "mean": 0.14444444444444446,
+      "seed_sample_sd": 0.06938886664887109,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 0.03333333333333334,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "sign_change",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 500,
+      "family": "composition",
+      "mean": 0.3888888888888889,
+      "seed_sample_sd": 0.05091750772173158,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "all",
+      "mean": 0.22444444444444445,
+      "seed_sample_sd": 0.010183501544346303,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "length",
+      "mean": 0.18888888888888888,
+      "seed_sample_sd": 0.038490017945975064,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "carry_chain",
+      "mean": 0.0,
+      "seed_sample_sd": 0.0,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "digit_composition",
+      "mean": 0.20000000000000004,
+      "seed_sample_sd": 3.3993498887762956e-17,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "sign_change",
+      "mean": 0.27777777777777773,
+      "seed_sample_sd": 0.01924500897298752,
+      "seeds": 3
+    },
+    {
+      "model": "MiniLM residual adapter",
+      "condition": "procedural",
+      "budget": 1000,
+      "family": "composition",
+      "mean": 0.45555555555555555,
+      "seed_sample_sd": 0.05091750772173154,
+      "seeds": 3
+    }
+  ],
+  "physics": [
+    {
+      "family": "motion",
+      "seed": "11",
+      "panel": "iid",
+      "candidate": [
+        0.7985,
+        0.7945,
+        2.5061
+      ],
+      "matched": [
+        0.6041,
+        0.7197,
+        2.5393
+      ]
+    },
+    {
+      "family": "motion",
+      "seed": "11",
+      "panel": "stress",
+      "candidate": [
+        0.8965,
+        1.3109,
+        2.9402
+      ],
+      "matched": [
+        0.8068,
+        1.3134,
+        2.9178
+      ]
+    },
+    {
+      "family": "motion",
+      "seed": "23",
+      "panel": "iid",
+      "candidate": [
+        0.6337,
+        0.7349,
+        2.458
+      ],
+      "matched": [
+        0.6848,
+        0.7061,
+        2.4951
+      ]
+    },
+    {
+      "family": "motion",
+      "seed": "23",
+      "panel": "stress",
+      "candidate": [
+        0.88,
+        1.2709,
+        2.8457
+      ],
+      "matched": [
+        0.9953,
+        1.3946,
+        2.9573
+      ]
+    },
+    {
+      "family": "interaction",
+      "seed": "11",
+      "panel": "iid",
+      "candidate": [
+        0.4729,
+        0.4261,
+        0.4167
+      ],
+      "matched": [
+        0.4735,
+        0.4282,
+        0.4106
+      ]
+    },
+    {
+      "family": "interaction",
+      "seed": "11",
+      "panel": "stress",
+      "candidate": [
+        0.9544,
+        0.9584,
+        0.9985
+      ],
+      "matched": [
+        0.9287,
+        0.9186,
+        0.9494
+      ]
+    },
+    {
+      "family": "interaction",
+      "seed": "23",
+      "panel": "iid",
+      "candidate": [
+        0.5475,
+        0.4768,
+        0.4621
+      ],
+      "matched": [
+        0.5629,
+        0.4976,
+        0.5319
+      ]
+    },
+    {
+      "family": "interaction",
+      "seed": "23",
+      "panel": "stress",
+      "candidate": [
+        0.9487,
+        0.9359,
+        1.0131
+      ],
+      "matched": [
+        0.9498,
+        0.9432,
+        1.056
+      ]
+    }
+  ],
+  "coding": [
+    {
+      "condition": "plain",
+      "iid": [
+        3,
+        6
+      ],
+      "ood": [
+        4,
+        12
+      ]
+    },
+    {
+      "condition": "structured",
+      "iid": [
+        4,
+        6
+      ],
+      "ood": [
+        3,
+        12
+      ]
+    },
+    {
+      "condition": "typed",
+      "iid": [
+        4,
+        6
+      ],
+      "ood": [
+        4,
+        12
+      ]
+    },
+    {
+      "condition": "mindscape",
+      "iid": [
+        6,
+        6
+      ],
+      "ood": [
+        8,
+        12
+      ]
+    },
+    {
+      "condition": "no_memory",
+      "iid": [
+        4,
+        6
+      ],
+      "ood": [
+        6,
+        12
+      ]
+    },
+    {
+      "condition": "no_planning",
+      "iid": [
+        4,
+        6
+      ],
+      "ood": [
+        7,
+        12
+      ]
+    },
+    {
+      "condition": "no_concepts",
+      "iid": [
+        6,
+        6
+      ],
+      "ood": [
+        9,
+        12
+      ]
+    },
+    {
+      "condition": "word_memory",
+      "iid": [
+        6,
+        6
+      ],
+      "ood": [
+        8,
+        12
+      ]
+    }
+  ],
+  "performance": [
+    {
+      "condition": "mindscape",
+      "motion": 93395700.0,
+      "interaction": 7.74368
+    },
+    {
+      "condition": "matched",
+      "motion": 18.1353,
+      "interaction": 3.66973
+    },
+    {
+      "condition": "no_relationships",
+      "motion": 167.389,
+      "interaction": 85.6984
+    },
+    {
+      "condition": "no_concepts",
+      "motion": 9388.72,
+      "interaction": 4.73733
+    },
+    {
+      "condition": "no_memory",
+      "motion": 93152400.0,
+      "interaction": 8.23195
+    },
+    {
+      "condition": "no_history",
+      "motion": 26.1186,
+      "interaction": 4.09654
+    },
+    {
+      "condition": "no_feedback",
+      "motion": 17.3483,
+      "interaction": 2.35818
+    },
+    {
+      "condition": "persistence",
+      "motion": 2.87679,
+      "interaction": 3.0214
+    },
+    {
+      "condition": "constant_velocity",
+      "motion": 2.26968,
+      "interaction": 6.81757
+    },
+    {
+      "condition": "analytical_available",
+      "motion": 4.24611,
+      "interaction": 6.7678
+    }
+  ],
+  "historical_coding": [
+    {
+      "condition": "model_only",
+      "split": "test",
+      "successes": 8,
+      "episodes": 50,
+      "accuracy": 0.16,
+      "wilson_ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ]
+    },
+    {
+      "condition": "model_only",
+      "split": "ood_test",
+      "successes": 12,
+      "episodes": 50,
+      "accuracy": 0.24,
+      "wilson_ci95": [
+        0.1429739139699173,
+        0.3741268375794292
+      ]
+    },
+    {
+      "condition": "structured",
+      "split": "test",
+      "successes": 50,
+      "episodes": 50,
+      "accuracy": 1.0,
+      "wilson_ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "condition": "structured",
+      "split": "ood_test",
+      "successes": 22,
+      "episodes": 50,
+      "accuracy": 0.44,
+      "wilson_ci95": [
+        0.3116219921125717,
+        0.5769397197834315
+      ]
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "test",
+      "successes": 45,
+      "episodes": 50,
+      "accuracy": 0.9,
+      "wilson_ci95": [
+        0.7863976856252035,
+        0.9565242350681096
+      ]
+    },
+    {
+      "condition": "mindscape_b",
+      "split": "ood_test",
+      "successes": 24,
+      "episodes": 50,
+      "accuracy": 0.48,
+      "wilson_ci95": [
+        0.34797135286578046,
+        0.6148825510995539
+      ]
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "test",
+      "successes": 49,
+      "episodes": 50,
+      "accuracy": 0.98,
+      "wilson_ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "condition": "mindscape_c",
+      "split": "ood_test",
+      "successes": 18,
+      "episodes": 50,
+      "accuracy": 0.36,
+      "wilson_ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ]
+    }
+  ],
+  "latency": [
+    {
+      "condition": "model_only",
+      "n": 4,
+      "p50": 2.5287001245001193,
+      "p95": 2.9951699749499765,
+      "rss": 3802660864,
+      "mpsLive": 3132599552
+    },
+    {
+      "condition": "structured",
+      "n": 4,
+      "p50": 2.891284770499624,
+      "p95": 3.226074864299926,
+      "rss": 3802660864,
+      "mpsLive": 3134778624
+    },
+    {
+      "condition": "mindscape_b",
+      "n": 4,
+      "p50": 35.924512353999944,
+      "p95": 44.30880428300006,
+      "rss": 3802660864,
+      "mpsLive": 3136957696
+    },
+    {
+      "condition": "mindscape_c",
+      "n": 4,
+      "p50": 31.74315270850002,
+      "p95": 32.581375693700465,
+      "rss": 3802660864,
+      "mpsLive": 3139136768
+    }
+  ],
+  "sources": {
+    "math": "/assets/v3/v3-mathematics.md",
+    "physics": "/assets/v3/v3-1-physics.md",
+    "coding": "/assets/v3/v3-coding.md",
+    "performance": "/assets/v3/v3-physics.md",
+    "historical": "/assets/benchmark-data.json"
+  }
+}
