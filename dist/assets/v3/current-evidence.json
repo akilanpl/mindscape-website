@@ -1,0 +1,427 @@
+{
+  "updated": "2026-10-12",
+  "research_commit": "9ce27a3",
+  "integration": {
+    "asset_hashes": {
+      "/Users/akilan/Documents/Codex/2026-10-08/files-pasted-by-the-user-mindscape/outputs/mindscape/work/coding/hf/models--Qwen--Qwen2.5-Coder-1.5B-Instruct/snapshots/2e1fd397ee46e1388853d2af2c993145b0f1098a/model.safetensors": "c1b9b30e907950516ba3c646bdf570d8084c25a6410a0cdca80cf04b11bc13a8",
+      "results/v3_1_physics/native-pilot-1791816435786858000/motion/s11/candidate/checkpoint-index.json": "7617abc896aa1a3f8ddefd8bc3de31c39e45f2948461ab732755d6121e831d25",
+      "results/v3_coding/training_v1/evaluator-s11.pt": "c763c117b8b9885b75d62a1a396d072b42135294fbb7d10b7de5d4ee626d7a45",
+      "results/v3_coding/training_v1/memory.json": "7c2a8220b2f0fbe2d19bd7fd7c98cc008ae8171e436ef5a98374972df21ba59e",
+      "work/coding/runtime/python.cwasm": "12725ea41c995936db255124db504f2286ab66b3ad648a9dda7fa10404b7ac33",
+      "work/coding/runtime/python.wasm": "d24bd98d3071af6b17d51d53a08700b9acef59172a0afcb6adb733645c2a1715",
+      "work/math-evidence-restored/compact/model-procedural-n1000-s0/checkpoint.pt": "65e822bd915923694cf731c4ff5bc5263a1ad7bb3ffaadf26b727fe0695c080d",
+      "work/math-evidence-restored/compact/model-procedural-n1000-s0/training.json": "02db916abdf7ccb27d79c30bfd303baffc3bf7b1bef78b8015690fb0e4110851"
+    },
+    "device": "mps",
+    "engineering_integration": "PASS",
+    "learned_cross_domain_transfer": "NOT YET ESTABLISHED",
+    "results": [
+      {
+        "actual": {
+          "answer": "833",
+          "kind": "actual",
+          "summary": [
+            833.0
+          ],
+          "written_transitions": [
+            {
+              "event": "unverified_claim_written",
+              "incoming": 1,
+              "kind": "actual",
+              "proposed_operation": "add",
+              "written_digit": 3
+            },
+            {
+              "event": "unverified_claim_written",
+              "incoming": 1,
+              "kind": "actual",
+              "proposed_operation": "add",
+              "written_digit": 3
+            },
+            {
+              "event": "unverified_claim_written",
+              "incoming": 0,
+              "kind": "actual",
+              "proposed_operation": "add",
+              "written_digit": 8
+            },
+            {
+              "event": "unverified_claim_written",
+              "incoming": 0,
+              "kind": "actual",
+              "proposed_operation": "add",
+              "written_digit": 0
+            }
+          ]
+        },
+        "domain": "mathematics",
+        "engineering_pass": true,
+        "identity": "0eb6d2b797f662b3dee2425859a8cb1ff04ee1ca327b8b99c262f3b80f2a0094",
+        "task_success": false
+      },
+      {
+        "actual": {
+          "answer": "43",
+          "kind": "actual",
+          "summary": [
+            43.0
+          ],
+          "written_transitions": [
+            {
+              "event": "unverified_claim_written",
+              "incoming": 1,
+              "kind": "actual",
+              "proposed_operation": "sub",
+              "written_digit": 3
+            },
+            {
+              "event": "unverified_claim_written",
+              "incoming": 0,
+              "kind": "actual",
+              "proposed_operation": "sub",
+              "written_digit": 4
+            },
+            {
+              "event": "unverified_claim_written",
+              "incoming": 0,
+              "kind": "actual",
+              "proposed_operation": "sub",
+              "written_digit": 0
+            }
+          ]
+        },
+        "domain": "mathematics",
+        "engineering_pass": true,
+        "identity": "9338881aabc2a8ba9e38c3ca1aac8d5e5baf0379612a70003c3f0a5954ff25a8",
+        "task_success": false
+      },
+      {
+        "actual": {
+          "kind": "actual",
+          "private_after_termination": {
+            "actual_vm_call": true,
+            "all_passed": true,
+            "case_passes": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "execution": {
+              "duration": 0.31294674999662675,
+              "returncode": 0,
+              "stderr": "",
+              "stdout": "b7629b3aa4f797307947ccc7f7e9a172[{\"value\": 0, \"type\": \"int\", \"args_after\": [[]]}, {\"value\": 4, \"type\": \"int\", \"args_after\": [[-4, 0, 4]]}, {\"value\": 8, \"type\": \"int\", \"args_after\": [[4, 4]]}, {\"value\": 7, \"type\": \"int\", \"args_after\": [[7, 2]]}]\n",
+              "timeout": false
+            },
+            "observed": [
+              {
+                "args_after": [
+                  []
+                ],
+                "type": "int",
+                "value": 0
+              },
+              {
+                "args_after": [
+                  [
+                    -4,
+                    0,
+                    4
+                  ]
+                ],
+                "type": "int",
+                "value": 4
+              },
+              {
+                "args_after": [
+                  [
+                    4,
+                    4
+                  ]
+                ],
+                "type": "int",
+                "value": 8
+              },
+              {
+                "args_after": [
+                  [
+                    7,
+                    2
+                  ]
+                ],
+                "type": "int",
+                "value": 7
+              }
+            ],
+            "passed": 4,
+            "total": 4
+          },
+          "repository": {
+            "solution.py": "def compute_61488(values):\n    return sum(item for item in values if item >= 4)"
+          },
+          "summary": [],
+          "visible": {
+            "actual_vm_call": true,
+            "all_passed": true,
+            "case_passes": [
+              true,
+              true
+            ],
+            "execution": {
+              "duration": 0.3278384159930283,
+              "returncode": 0,
+              "stderr": "",
+              "stdout": "4ff4af675f5ed6eca741975b6e51c854[{\"value\": 4, \"type\": \"int\", \"args_after\": [[4]]}, {\"value\": 10, \"type\": \"int\", \"args_after\": [[3, 4, 6]]}]\n",
+              "timeout": false
+            },
+            "observed": [
+              {
+                "args_after": [
+                  [
+                    4
+                  ]
+                ],
+                "type": "int",
+                "value": 4
+              },
+              {
+                "args_after": [
+                  [
+                    3,
+                    4,
+                    6
+                  ]
+                ],
+                "type": "int",
+                "value": 10
+              }
+            ],
+            "passed": 2,
+            "total": 2
+          }
+        },
+        "domain": "coding",
+        "engineering_pass": true,
+        "identity": "ce17a706295de7006e3133024901748d6d2c004ec02d0c8651a9badb01971723",
+        "task_success": true
+      },
+      {
+        "actual": {
+          "action": [
+            [
+              0.0,
+              0.0,
+              2.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          "goal_distance": 0.31563871328122356,
+          "kind": "actual",
+          "prediction_mse": 1.2246446141642022,
+          "summary": [
+            0.24318272562717752,
+            1.7012211700551494,
+            4.032354148311496,
+            -1.413243159575181,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "terminal": [
+            [
+              0.24318272562717752,
+              1.7012211700551494,
+              4.032354148311496,
+              -1.413243159575181,
+              0.8498085405125272,
+              0.25,
+              0.20025176365136946,
+              0.7668395274865754,
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "domain": "physics",
+        "engineering_pass": true,
+        "identity": "7b40df704debad25f3a92f758b15ded175b05e18f5868542b1bcb9d5c459a2dd",
+        "task_success": true
+      }
+    ],
+    "source_hash": "2f2dd282fc3c67348b4b70d1534f1763d7aab03489882e723165a258bd6b908b",
+    "suite_hash": "fb434a2a6cc1aed370e640e63fa9d8afa86c155c859598a0bd03885fc6ad5ea0"
+  },
+  "mathematics": {
+    "budgets": [
+      10,
+      25,
+      50,
+      100,
+      250,
+      500,
+      1000
+    ],
+    "compact_concepts_ood_percent": [
+      0.67,
+      2.22,
+      4.44,
+      10.89,
+      17.78,
+      23.56,
+      26.89
+    ],
+    "adapter_concepts_ood_percent": [
+      0.89,
+      1.78,
+      5.56,
+      11.11,
+      19.33,
+      24.89,
+      31.33
+    ],
+    "length_ood_percent": {
+      "compact": 27.78,
+      "adapter": 30.0
+    },
+    "target_achieved": false
+  },
+  "coding": {
+    "ood_successes": 8,
+    "ood_tasks": 12,
+    "wilson95_percent": [
+      39.1,
+      86.2
+    ],
+    "strongest_reference_successes": 9,
+    "paired_difference_points": -8.3,
+    "paired_bootstrap95_points": [
+      -25,
+      0
+    ],
+    "superiority_gate": false
+  },
+  "physics": {
+    "primary_forecasts": 6000,
+    "all_forecasts": 19200,
+    "planning_episodes": 2160,
+    "engineering_verified": true,
+    "improvement_target_achieved": false
+  },
+  "physics_v3_1": {
+    "development_scenes": 26,
+    "forecasts": 780,
+    "planning_outcomes": 32,
+    "decision": "NO-GO",
+    "motion_improvement_percent": 1.52,
+    "interaction_improvement_percent": -0.31,
+    "coverage_percent": [
+      75.4,
+      68.62
+    ]
+  },
+  "sources": [
+    {
+      "file": "v3-mathematics.md",
+      "source": "docs/v3_math/scientific-report.md",
+      "sha256": "c44032a1fa20693092edbd37ea0d1c84b70aa5e8931cfb13d5045d0680c5d09c",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_math/scientific-report.md"
+    },
+    {
+      "file": "v3-coding.md",
+      "source": "docs/v3_coding/scientific-report.md",
+      "sha256": "32902728ce9da13cbd93357720c3be41ac8961d2e32a57065539599162019907",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_coding/scientific-report.md"
+    },
+    {
+      "file": "v3-physics.md",
+      "source": "docs/v3_physics/recovery/scientific-report.md",
+      "sha256": "3b76b73719000777445c972f7c1398305f5b3252c35c972cbdfca76f54c88647",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_physics/recovery/scientific-report.md"
+    },
+    {
+      "file": "v3-1-physics.md",
+      "source": "docs/v3_1_physics/diagnostic-review.md",
+      "sha256": "5a6fb0469724fac3a35754fba7e25215acf309f2d687a3a4b54a8395a763eb81",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_1_physics/diagnostic-review.md"
+    },
+    {
+      "file": "v3-integration.md",
+      "source": "docs/v3_integration/handoff.md",
+      "sha256": "748bdb930a3a80e2fa1237221c4e63828724c0c717805225dd85978b63660242",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_integration/handoff.md"
+    },
+    {
+      "file": "v3-architecture.md",
+      "source": "docs/v3_integration/README.md",
+      "sha256": "4880b3a68ace41b30032b7287f2706e3c8d6c528a9ec336acbbce55d32fa31cf",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_integration/README.md"
+    },
+    {
+      "file": "v3-math-protocol.md",
+      "source": "docs/v3_math/protocol.md",
+      "sha256": "d1646e646f47f2a7b6c677cf86fe47825c19acc761e1cc74a39660c2e88ced02",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_math/protocol.md"
+    },
+    {
+      "file": "v3-physics-architecture.md",
+      "source": "docs/v3_1_physics/architecture.md",
+      "sha256": "94c95d95f20bcfc31dc3d6545ea4d28713851561158a7904031a9b110289a555",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_1_physics/architecture.md"
+    },
+    {
+      "file": "v3-physics-commands.md",
+      "source": "docs/v3_physics/recovery/commands.md",
+      "sha256": "4632c1a9485859e45e95db358e7ed9124c8dbddcad7a80a4d3f6ea87308a221f",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_physics/recovery/commands.md"
+    },
+    {
+      "file": "v3-coding-architecture.md",
+      "source": "docs/v3_coding/architecture.md",
+      "sha256": "0d6b3b9508c85ebc053526e11dbdc02e93bf0ebfc74902ec269c0718147d9577",
+      "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_coding/architecture.md"
+    }
+  ],
+  "learned_cross_domain_transfer": "NOT YET ESTABLISHED"
+}
