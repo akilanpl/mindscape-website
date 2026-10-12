@@ -27,3 +27,7 @@ All eleven canonical pages include current research scope. The library contains 
 Validate with `python3 tests/verify_site.py` and `node --check dist/research.js`. Serve `dist` as above. `scripts/update_v3.py` records the one-time source export/content migration (requires the pinned research checkout); checked-in `dist` is deployable without that checkout or a build step. Subsequent editorial fixes are applied directly to static sources.
 
 The website does not rerun models or expose a research execution endpoint. Contact form behavior remains unchanged; delivery still depends on the mailbox owner's FormSubmit activation. Verification does not send contact submissions.
+
+## Page-specific refinement
+
+Home retains its original introduction and has a compact dated research link in the footer. About and Research Overview integrate physics into their existing domain layouts; Reports adds a physics data card. Architecture updates its original sections. Advancements provides five interactive explorers built from preserved measurements: learning budgets, V3.1 horizons, coding comparisons, historical latency and V3 model errors. Sliders select recorded budgets/horizons only. Exact values and source links accompany each graph; graph controls do not run a model. Validate with the nine checks in `tests/verify_site.py` and JavaScript syntax checks. Browser QA covers graph controls, keyboard tabs and mobile overflow.
