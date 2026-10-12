@@ -1,0 +1,62 @@
+[
+  {
+    "file": "v3-mathematics.md",
+    "source": "docs/v3_math/scientific-report.md",
+    "sha256": "c44032a1fa20693092edbd37ea0d1c84b70aa5e8931cfb13d5045d0680c5d09c",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_math/scientific-report.md"
+  },
+  {
+    "file": "v3-coding.md",
+    "source": "docs/v3_coding/scientific-report.md",
+    "sha256": "32902728ce9da13cbd93357720c3be41ac8961d2e32a57065539599162019907",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_coding/scientific-report.md"
+  },
+  {
+    "file": "v3-physics.md",
+    "source": "docs/v3_physics/recovery/scientific-report.md",
+    "sha256": "3b76b73719000777445c972f7c1398305f5b3252c35c972cbdfca76f54c88647",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_physics/recovery/scientific-report.md"
+  },
+  {
+    "file": "v3-1-physics.md",
+    "source": "docs/v3_1_physics/diagnostic-review.md",
+    "sha256": "5a6fb0469724fac3a35754fba7e25215acf309f2d687a3a4b54a8395a763eb81",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_1_physics/diagnostic-review.md"
+  },
+  {
+    "file": "v3-integration.md",
+    "source": "docs/v3_integration/handoff.md",
+    "sha256": "748bdb930a3a80e2fa1237221c4e63828724c0c717805225dd85978b63660242",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_integration/handoff.md"
+  },
+  {
+    "file": "v3-architecture.md",
+    "source": "docs/v3_integration/README.md",
+    "sha256": "4880b3a68ace41b30032b7287f2706e3c8d6c528a9ec336acbbce55d32fa31cf",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_integration/README.md"
+  },
+  {
+    "file": "v3-math-protocol.md",
+    "source": "docs/v3_math/protocol.md",
+    "sha256": "d1646e646f47f2a7b6c677cf86fe47825c19acc761e1cc74a39660c2e88ced02",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_math/protocol.md"
+  },
+  {
+    "file": "v3-physics-architecture.md",
+    "source": "docs/v3_1_physics/architecture.md",
+    "sha256": "94c95d95f20bcfc31dc3d6545ea4d28713851561158a7904031a9b110289a555",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_1_physics/architecture.md"
+  },
+  {
+    "file": "v3-physics-commands.md",
+    "source": "docs/v3_physics/recovery/commands.md",
+    "sha256": "4632c1a9485859e45e95db358e7ed9124c8dbddcad7a80a4d3f6ea87308a221f",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_physics/recovery/commands.md"
+  },
+  {
+    "file": "v3-coding-architecture.md",
+    "source": "docs/v3_coding/architecture.md",
+    "sha256": "0d6b3b9508c85ebc053526e11dbdc02e93bf0ebfc74902ec269c0718147d9577",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/9ce27a3/docs/v3_coding/architecture.md"
+  }
+]
