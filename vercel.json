@@ -3,5 +3,10 @@
   "framework": null,
   "outputDirectory": "dist",
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "git": {
+    "deploymentEnabled": {
+      "feature/mind-announcement": false
+    }
+  }
 }

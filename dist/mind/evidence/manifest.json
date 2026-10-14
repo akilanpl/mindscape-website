@@ -1,0 +1,100 @@
+[
+  {
+    "file": "readiness.json",
+    "path": "docs/alpha/r54-readiness.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "b1b9f57001ce1eff8fd1f9a782615af3cf68efd9eb6eec6e28cdef925cd91609",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/docs/alpha/r54-readiness.json"
+  },
+  {
+    "file": "verdict.md",
+    "path": "docs/alpha/r54-scientific-verdict.md",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "d44dec7839f413d16e79213ba1c513dbfc3e9da4a90dcbed5b6b8b2ef93c55fc",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/docs/alpha/r54-scientific-verdict.md"
+  },
+  {
+    "file": "protocol.md",
+    "path": "docs/r5_4/protocol.md",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "1b1111020003e31363627fbf67447c6347c7ac6a8186c5debb296a916888b2cb",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/docs/r5_4/protocol.md"
+  },
+  {
+    "file": "math-summary.json",
+    "path": "experiments/r5_2_math/recovery_v1/summary.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "55f5599dd43ea2867707fe7be4a9e77e2e46a2c7918ef46e5fee18bb42a77b9a",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/r5_2_math/recovery_v1/summary.json"
+  },
+  {
+    "file": "math-audit.json",
+    "path": "experiments/r5_2_math/recovery_v1/audit.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "23fc83cab1fafc022e72c46e9b43ea77799e83cd9fc478efdca3437a31b7f229",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/r5_2_math/recovery_v1/audit.json"
+  },
+  {
+    "file": "math-report.md",
+    "path": "experiments/r5_2_math/recovery_v1/REPORT.md",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "01a393e09dcf6ec18f0aa1ff8d101257f5f0ef7a85a6c1e7a8eef37abd5ecaf3",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/r5_2_math/recovery_v1/REPORT.md"
+  },
+  {
+    "file": "physics-summary.json",
+    "path": "experiments/r5_3_physics/recovery_v1/summary.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "46cd2126c85349465c5e08e8e858b576727c1f1254a77c72d2908a7a0e7dc01c",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/r5_3_physics/recovery_v1/summary.json"
+  },
+  {
+    "file": "physics-audit.json",
+    "path": "experiments/r5_3_physics/recovery_v1/audit.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "60e0219fd45c5b8113476724a5528d33e3d554826810f9f6359b368b0fc4b072",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/r5_3_physics/recovery_v1/audit.json"
+  },
+  {
+    "file": "physics-report.md",
+    "path": "experiments/r5_3_physics/recovery_v1/REPORT.md",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "d94f869861433d158ef97e1b157d703c96ce2685abfe32f51bafed38b259702c",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/r5_3_physics/recovery_v1/REPORT.md"
+  },
+  {
+    "file": "integration-verification.json",
+    "path": "experiments/v3_integration/native_v1/verification.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "3b945d6433537d0bccf7628c34a29620164e81e8f5765189288874b6528ddf83",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/v3_integration/native_v1/verification.json"
+  },
+  {
+    "file": "trace-0.json",
+    "path": "experiments/v3_integration/native_v1/0-mathematics.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "917378d6ee61ebd0930901baf6d596debc9f5448db69ea55676f6a468f9201c5",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/v3_integration/native_v1/0-mathematics.json"
+  },
+  {
+    "file": "trace-1.json",
+    "path": "experiments/v3_integration/native_v1/1-mathematics.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "d3780644d289384b04ab602e90953d85c0d4f35bdeffe54dd99032501f956a84",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/v3_integration/native_v1/1-mathematics.json"
+  },
+  {
+    "file": "trace-2.json",
+    "path": "experiments/v3_integration/native_v1/2-coding.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "1b6937896472a083aa4df73720b34eb7ca9ea850ea9a753b4cda189c7ee38117",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/v3_integration/native_v1/2-coding.json"
+  },
+  {
+    "file": "trace-3.json",
+    "path": "experiments/v3_integration/native_v1/3-physics.json",
+    "commit": "950a17519f43fbc887e41f29ce2e24d4b6036ead",
+    "sha256": "201e2eeb37e625701b1e41e989b6614412aa4aea5266d51cc7c519ec9b06c6c7",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/950a17519f43fbc887e41f29ce2e24d4b6036ead/experiments/v3_integration/native_v1/3-physics.json"
+  }
+]
