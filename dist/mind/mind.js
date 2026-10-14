@@ -30,3 +30,11 @@
  ['math-seed','math-family'].forEach(id=>byId(id).addEventListener('change',math));['physics-family','physics-horizon','physics-metric'].forEach(id=>byId(id).addEventListener('change',physics));
  fetch(document.body.dataset.release).then(r=>{if(!r.ok)throw Error('Evidence unavailable');return r.json();}).then(value=>{if(value.schema!=='mindscape.announcement/1'||value.status!==document.body.dataset.status||value.scientific_updates!==0||value.neural_ood_predictions!==0||!Array.isArray(value.traces)||value.traces.length===0)throw Error('Incompatible release bundle');data=value;renderTrace();math();physics();timeline();byId('data-status').textContent=`Evidence snapshot: ${data.as_of}. Research source ${data.evidence_commit.slice(0,8)}. Versioned data; no model execution.`;}).catch(()=>{byId('data-status').textContent='Interactive evidence could not load. The original source files remain available in every section.';byId('trace-json').textContent='Recording unavailable. Open the linked original JSON.';});
 })();
+
+// Keep the hero navigation dark, then return to the site's light glass treatment.
+(() => {
+ const syncNavigation = () => document.body.classList.toggle('nav-scrolled', window.scrollY > 64);
+ window.addEventListener('scroll', syncNavigation, {passive:true});
+ window.addEventListener('pageshow', syncNavigation);
+ syncNavigation();
+})();

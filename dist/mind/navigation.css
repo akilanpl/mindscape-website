@@ -88,3 +88,11 @@ main{padding-top:0}.cinema{height:100svh}
 .about-page .glass-nav a:hover,.about-page .nav-dropdown-trigger:hover{color:#fff}
 .about-page .research-menu:before{background:#142128f5;border-color:#ffffff24;box-shadow:0 12px 32px #0003}
 @media(max-width:650px){main{padding-top:0}.header-wash{height:130px}.about-brand{position:fixed}}
+
+/* Match the light site navigation after leaving the top of the hero. */
+body.nav-scrolled .header-wash{background:linear-gradient(#fffffff5,#ffffffc9,transparent)}
+body.nav-scrolled .about-brand{color:#171b18}
+body.nav-scrolled .glass-nav,body.nav-scrolled .glass-nav:hover{background:rgba(230,235,237,.78);box-shadow:0 6px 24px #0000000e}
+body.nav-scrolled .glass-nav a,body.nav-scrolled .glass-nav a[aria-current],body.nav-scrolled .nav-dropdown-trigger{color:#222}
+body.nav-scrolled .glass-nav a:hover,body.nav-scrolled .nav-dropdown-trigger:hover{color:#444}
+body.nav-scrolled .research-menu:before{background:#fffffff2;border-color:#00000016;box-shadow:0 12px 32px #00000012}
