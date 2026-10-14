@@ -80,6 +80,19 @@ class Site(unittest.TestCase):
    s=(D/route/'index.html').read_text()
    for version in ['V4','V5','R5','R5.2','R5.3','R5.4']:self.assertIn('value="'+version+'"',s)
    self.assertIn('<option value="All" selected>All versions</option>',s)
+ def test_advanced_concepts(self):
+  s=(D/'architecture/index.html').read_text()
+  self.assertIn('Advanced concepts',s)
+  self.assertEqual(s.count('class="concept-card"'),6)
+  self.assertNotIn('id="diagnostic-panel"',s)
+  self.assertNotIn('src="../architecture.js"',s)
+  self.assertTrue((D/'assets/architecture-traces.json').exists())
+ def test_resource_concept_art(self):
+  import xml.etree.ElementTree as ET
+  for name in ['math','physics','coding','shared','verification']:
+   root=ET.parse(D/'assets/concepts'/ (name+'.svg')).getroot()
+   self.assertEqual(root.attrib['viewBox'],'0 0 640 440')
+  self.assertNotIn("'../assets/favicon.svg'",(D/'resources.js').read_text())
  def test_form_boundary(self):
   p=Page((D/'contact/index.html').read_text())
   form=next(a for t,a in p.tags if t=='form')
