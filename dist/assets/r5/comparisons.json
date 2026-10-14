@@ -1,0 +1,55 @@
+{
+  "math": {
+    "labels": [
+      "Recurrent",
+      "Reset hidden",
+      "Memory only",
+      "Zero weight",
+      "Zero + memory"
+    ],
+    "values": [
+      8.33,
+      25,
+      21.53,
+      0,
+      21.53
+    ],
+    "unit": "% exact OOD",
+    "note": "R5.2: mean across three seeds; 144 independent tasks, not 432. Recovered frozen predictions; NO_GO.",
+    "source": "math"
+  },
+  "motion": {
+    "labels": [
+      "Structured",
+      "Matched",
+      "Frozen V3.1",
+      "Analytical contacts"
+    ],
+    "values": [
+      0.07904477,
+      0.07787777,
+      0.42898787,
+      0.06511602
+    ],
+    "unit": "32-step OOD MSE",
+    "note": "R5.3 motion: 14 independent OOD scenes; seed-averaged means. Structured planning 78.57%, matched 80.95%. Primary ratio bootstrap CI [0.998, 2.330]; superiority failed.",
+    "source": "physics"
+  },
+  "interaction": {
+    "labels": [
+      "Structured",
+      "Matched",
+      "Frozen V3.1",
+      "Analytical contacts"
+    ],
+    "values": [
+      0.06111424,
+      0.05315167,
+      0.30289711,
+      0.05139072
+    ],
+    "unit": "32-step OOD MSE",
+    "note": "R5.3 interaction: 14 independent OOD scenes; seed-averaged means. Structured and matched planning 35.71%. Primary ratio bootstrap CI [1.044, 3.193]; superiority failed.",
+    "source": "physics"
+  }
+}

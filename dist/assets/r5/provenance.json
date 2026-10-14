@@ -1,0 +1,50 @@
+[
+  {
+    "file": "v4.md",
+    "source": "docs/v4/scientific-report.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "b972f6d8a952722d9be9cd99dbc4479740ade5e2d7ea7f55ee273128aa2550fb"
+  },
+  {
+    "file": "v4-qualification.md",
+    "source": "docs/v4/qualification-result.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "0393cf98d69a1e7562594f18e2a74dadb422adde27bb3dc93fe3ae2341985f68"
+  },
+  {
+    "file": "v5.md",
+    "source": "docs/v5/scientific-report.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "8b3bbd2ac445c544b46be1945448628e4e2a07bb0a236eba081a1ef83466e896"
+  },
+  {
+    "file": "kernel.md",
+    "source": "experiments/r5_kernel/REPORT.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "c7bc563b0193d638897d33c7c9a43b843c36ae6a1be6b788aa0a4f64e8654f8d"
+  },
+  {
+    "file": "math.md",
+    "source": "experiments/r5_2_math/recovery_v1/REPORT.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "01a393e09dcf6ec18f0aa1ff8d101257f5f0ef7a85a6c1e7a8eef37abd5ecaf3"
+  },
+  {
+    "file": "physics.md",
+    "source": "experiments/r5_3_physics/recovery_v1/REPORT.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "d94f869861433d158ef97e1b157d703c96ce2685abfe32f51bafed38b259702c"
+  },
+  {
+    "file": "readiness.md",
+    "source": "experiments/r5_4/engineering_v2/READINESS.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "1d1f3674db4274c2102f58bddb0e3275e5cc0f99240ad928deaab696c389d4cb"
+  },
+  {
+    "file": "gate-review.md",
+    "source": "experiments/r5_4/gate_integration_v2/READINESS.md",
+    "commit": "988657be83fc4582218a840150e5230f335ca930",
+    "sha256": "ec51ca58750271836c282526d49c494ce16feb207a4985da9050326510517f41"
+  }
+]
