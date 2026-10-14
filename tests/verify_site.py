@@ -79,6 +79,7 @@ class Site(unittest.TestCase):
   for route in ['research/library','research/index']:
    s=(D/route/'index.html').read_text()
    for version in ['V4','V5','R5','R5.2','R5.3','R5.4']:self.assertIn('value="'+version+'"',s)
+   self.assertIn('<option value="All" selected>All versions</option>',s)
  def test_form_boundary(self):
   p=Page((D/'contact/index.html').read_text())
   form=next(a for t,a in p.tags if t=='form')
