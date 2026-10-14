@@ -89,7 +89,7 @@ class Site(unittest.TestCase):
   self.assertIn('src="/architecture.js"',s)
   for page in D.rglob("*.html"):
    html=page.read_text()
-   if 'class="glass-nav"' in html:self.assertIn('<a href="/mind/">Meet Mind</a>',html)
+   if 'class="glass-nav"' in html:self.assertRegex(html,r'<a href="/mind/"(?: aria-current="page")?>Meet Mind</a>')
   self.assertTrue((D/'assets/architecture-traces.json').exists())
  def test_resource_concept_art(self):
   import xml.etree.ElementTree as ET
