@@ -83,9 +83,13 @@ class Site(unittest.TestCase):
  def test_advanced_concepts(self):
   s=(D/'architecture/index.html').read_text()
   self.assertIn('Advanced concepts',s)
-  self.assertEqual(s.count('class="concept-card"'),6)
-  self.assertNotIn('id="diagnostic-panel"',s)
-  self.assertNotIn('src="../architecture.js"',s)
+  for element in ["diagnostic-panel", "trace-event", "verbatim-response", "readable-code", "trace-result"]:
+   self.assertIn('id="'+element+'"',s)
+  self.assertIn('src="/architecture-data.js"',s)
+  self.assertIn('src="/architecture.js"',s)
+  for page in D.rglob("*.html"):
+   html=page.read_text()
+   if 'class="glass-nav"' in html:self.assertIn('<a href="/mind/">Meet Mind</a>',html)
   self.assertTrue((D/'assets/architecture-traces.json').exists())
  def test_resource_concept_art(self):
   import xml.etree.ElementTree as ET
