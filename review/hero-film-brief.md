@@ -6,4 +6,4 @@ A quiet 8–10 second editorial motion loop on an ivory background. Three distin
 
 Website caption: “Represent the problem. Predict a change. Test it against reality.” Subcaption: “A visual interpretation of Mindscape’s research process.” Add exact typography as website text, not generated video text.
 
-Status: awaiting authenticated Runway access; no generation submitted and no credits spent.
+Status: Runway was plan-blocked; zero Runway credits spent. User separately approved up to 100 Google Flow credits. Two Veo 3.1 Lite drafts completed at 10 credits each (20 total). The portrait draft fits the existing homepage. Both originals and source hashes are preserved in review/film. The published video is silent with a 0.75-second crossfade, a visible AI-illustration caption, pause/play control and reduced-motion handling.

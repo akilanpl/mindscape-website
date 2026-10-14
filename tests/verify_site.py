@@ -93,6 +93,16 @@ class Site(unittest.TestCase):
    root=ET.parse(D/'assets/concepts'/ (name+'.svg')).getroot()
    self.assertEqual(root.attrib['viewBox'],'0 0 640 440')
   self.assertNotIn("'../assets/favicon.svg'",(D/'resources.js').read_text())
+ def test_homepage_film(self):
+  s=(D/'index.html').read_text()
+  self.assertIn('assets/mindscape-research-film.mp4',s)
+  self.assertIn('AI-generated illustration of the research process.',s)
+  self.assertIn('aria-controls="hero-video"',s)
+  self.assertIn('prefers-reduced-motion',(D/'launch.js').read_text())
+  meta=json.loads((D.parent/'review/film/provenance.json').read_text())
+  self.assertLessEqual(meta['displayed_credit_cost'],meta['authorized_credit_cap'])
+  for path,row in meta['files'].items():
+   self.assertEqual(hashlib.sha256((D.parent/path).read_bytes()).hexdigest(),row['sha256'])
  def test_form_boundary(self):
   p=Page((D/'contact/index.html').read_text())
   form=next(a for t,a in p.tags if t=='form')

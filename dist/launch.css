@@ -7,3 +7,5 @@
 
 /* Concept-first introduction and cinematic portrait film. */
 .launch-page #launch-title{font-size:clamp(42px,4.3vw,66px);line-height:1.08;letter-spacing:-2.4px}.launch-film{min-height:0;aspect-ratio:1080/1348;align-self:center;overflow:visible;margin-bottom:54px;border:0;background:transparent}.launch-film video{border-radius:18px;object-fit:cover}.launch-film figcaption{top:100%;bottom:auto;background:transparent;padding:14px 0;color:#59625b}.launch-note{font-size:11px;line-height:1.65}.launch-cards h3{font-size:27px}@media(max-width:700px){.launch-page #launch-title{font-size:43px;letter-spacing:-1.8px}.launch-film{aspect-ratio:1080/1348;margin-bottom:38px}}
+
+.launch-film{position:relative}.film-toggle{position:absolute;top:16px;right:16px;border:1px solid #ffffff65;border-radius:22px;background:#191d20a6;color:#fff;padding:9px 15px;font:inherit;font-size:13px;cursor:pointer;backdrop-filter:blur(10px)}.film-toggle:focus-visible{outline:3px solid #fff;outline-offset:3px}
