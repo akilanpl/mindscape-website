@@ -44,3 +44,7 @@ python3 scripts/export_mind_evidence.py --research /absolute/path/to/mindscape
 ```
 
 This only reads Git objects and writes website exports. It runs no research experiment.
+
+## Architecture diagram follow-up
+
+The user reported the existing three-step methods diagram collapsing in the middle. Its CSS retained five tracks from a prior arrows layout. The targeted architecture.css correction uses three equal minmax columns and aligned heading height, retaining the one-column mobile breakpoint. Browser measurements: three 277.33px tracks at 1440px, three 213px tracks at 960px, three vertically stacked 294px cards at 390px; no step overflow. Two repair screenshots are included. This is the only intentional change to an existing dist file; the other 189 existing production files remain byte-identical. Publication remains deferred pending review.
