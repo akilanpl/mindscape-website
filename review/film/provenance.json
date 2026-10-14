@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "provider": "Google Flow",
+  "model": "Veo 3.1 Lite",
+  "generation_count": 2,
+  "displayed_credit_cost": 20,
+  "authorized_credit_cap": 100,
+  "source_duration_seconds": 8,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "usage": "AI-generated illustrative hero; not footage of a real Mindscape experiment",
+  "processing": "Removed audio; 0.75-second crossfade for a loop; H264 faststart. Watermark retained.",
+  "files": {
+    "review/film/flow-original.mp4": {
+      "sha256": "864b4f8d17b1ec90e107fbe0cdc7461d5554b0dac0e29221abb085d4a37d1f6d",
+      "bytes": 1465547
+    },
+    "review/film/flow-portrait-original.mp4": {
+      "sha256": "6a810d46fc5af70da2866947569fd1f62b9993f886f91b39f3bbd24028bad667",
+      "bytes": 982949
+    },
+    "dist/assets/mindscape-research-film.mp4": {
+      "sha256": "72b8c5690f00f8a1ab7b481835f80d84da35cff30e8e3b5f1048ed4bb7c77d29",
+      "bytes": 744092
+    },
+    "dist/assets/mindscape-research-poster.jpg": {
+      "sha256": "7c962968b6fe442ad8bf54496d287fa24fe853f3b4287cc30c7ec2d5653c31aa",
+      "bytes": 72420
+    }
+  },
+  "published_duration_seconds": 7.25,
+  "selected": "portrait"
+}
