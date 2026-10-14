@@ -20,7 +20,7 @@ class Site(unittest.TestCase):
     text=(D/route/'index.html').read_text();p=Page(text)
     self.assertEqual(len(p.ids),len(set(p.ids)))
     if route in ('','about','research','research/reports','architecture'):self.assertNotIn('id="current-research"',text)
-    if route=='':self.assertIn('Research Update . 12 OCTOBER 2026',text)
+    if route=='':self.assertIn('Research Update . 14 OCTOBER 2026',text)
     if route=='research/library':self.assertNotIn('NOT YET ESTABLISHED',text)
  def test_every_local_target(self):
   missing=[]
@@ -43,7 +43,7 @@ class Site(unittest.TestCase):
   self.assertEqual(d['engineering_integration'],'PASS');self.assertEqual([r['task_success'] for r in d['results']],[False,False,True,True])
  def test_filters_and_report_urls(self):
   rows=json.loads((D/'research-data.js').read_text().removeprefix('window.MindscapeResearch=').rstrip(';\n'))
-  self.assertEqual(len(rows),55)
+  self.assertEqual(len(rows),63)
   for r in rows:
    p=D/r['url'].lstrip('/') if r.get('url') else D/'assets/reports'/r['file']
    self.assertTrue(p.exists(),str(p))
@@ -63,6 +63,23 @@ class Site(unittest.TestCase):
   self.assertIn('<h2>Physics</h2>',(D/'research/index.html').read_text())
   self.assertIn('Physical dynamics',(D/'research/reports/index.html').read_text())
   self.assertIn('OBSERVE → REPRESENT → PROPOSE → PREDICT → ACT → VERIFY → UPDATE',(D/'architecture/index.html').read_text())
+ def test_r5_provenance(self):
+  rows=json.loads((D/'assets/r5/provenance.json').read_text())
+  self.assertEqual(len(rows),8)
+  for row in rows:self.assertEqual(hashlib.sha256((D/'assets/r5'/row['file']).read_bytes()).hexdigest(),row['sha256'])
+ def test_r5_comparison_sources(self):
+  data=json.loads((D/'assets/r5/comparisons.json').read_text())
+  for key,row in data.items():
+   source=(D/'assets/r5'/ (row['source']+'.md')).read_text()
+   for value in row['values']:
+    self.assertRegex(source, str(value).replace('.',r'\.'))
+  self.assertIn('144 independent tasks',data['math']['note'])
+  self.assertIn('14 independent OOD scenes',data['motion']['note'])
+ def test_r5_versions(self):
+  for route in ['research/library','research/index']:
+   s=(D/route/'index.html').read_text()
+   for version in ['V4','V5','R5','R5.2','R5.3','R5.4']:self.assertIn('value="'+version+'"',s)
+   self.assertIn('<option value="All" selected>All versions</option>',s)
  def test_form_boundary(self):
   p=Page((D/'contact/index.html').read_text())
   form=next(a for t,a in p.tags if t=='form')
