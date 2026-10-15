@@ -36,8 +36,12 @@ Home retains its original introduction and has a compact dated research link in 
 
 All 13 HTML routes include the current project context: the local Candidate C hybrid STEM assistant, matched hard/release evaluation, the browser-local workspace, and separate native R6/R6.1 findings. The grounded explanation commit `eaf0c46` is labeled as a feature-branch update beyond main `5ad2de4`. No model code, weights, experiments or historical evidence was changed.
 
-Eight reports were added to the searchable index (71 total records; 45 historical PDFs preserved). New report exports and the actual workspace screenshot are under `dist/assets/october-2026`, with source hashes in `provenance.json`. R6 training/generalization exports are explicitly labeled excerpts and omit detailed protected per-case predictions. The R5.4 announcement, evidence and interactions remain available below the current Meet Mind introduction.
+Eight reports were added to the searchable index (71 total records; 45 historical PDFs preserved). New report exports and the actual workspace screenshot are under `dist/assets/october-2026`, with source hashes in `provenance.json`. R6 training/generalization exports are explicitly labeled excerpts and omit detailed protected per-case predictions. The R5.4 announcement, evidence and interactions remain available in the linked `/mind/archive/r54/` preview.
 
 Validation: `python3 tests/verify_site.py` (17 checks), `python3 tests/test_mind.py` (10 checks), JavaScript syntax and Git whitespace checks passed. Browser QA checked the desktop home and benchmark, 12 canonical pages at 390px without horizontal overflow, and the R6/R6.1/context research filters. No contact form was submitted. Website checks do not rerun or re-certify reported model benchmarks.
 
 Vercel Git deployments require the commit author email to match the linked GitHub account. Use the established repository author identity; a machine-local email can block deployment before the static build begins.
+
+## Epitome announcement page
+
+`/mind/` now presents Epitome using a full-screen procedural galaxy, an editorial article, recorded workspace showcases, and accessible benchmark tabs. It uses the supplied Epitome copy with measured scope and limitations retained. Media origins and hashes are recorded in `dist/mind/media/provenance.json`. The former R5.4 page is archived with its evidence intact. No other canonical page was changed in this redesign.

@@ -52,7 +52,7 @@ class Mind(unittest.TestCase):
   for token in ['innerHTML','eval(','new Function','WebSocket','XMLHttpRequest']:self.assertNotIn(token,s)
   self.assertEqual(s.count('fetch('),1);self.assertIn('fetch(document.body.dataset.release)',s)
  def test_accessible_static_fallback(self):
-  s=(D/'index.html').read_text()
+  s=(D/'archive/r54/index.html').read_text()
   for token in ['<noscript>','role="tablist"','role="tabpanel"','aria-live="polite"','AI','Scientific study unrun.']:
    if token!='AI':self.assertIn(token,s)
   self.assertIn('prefers-reduced-motion',(D/'mind.css').read_text());self.assertIn("e.key==='ArrowRight'",(D/'mind.js').read_text())

@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-10-15",
+  "media": [
+    {
+      "file": "mathematics.jpg",
+      "sha256": "8adf4fb3450cd41c757b59e65c2328ca656c7343b2c2c305d9ca8df09459c23f",
+      "source": "frontend-redesign/desktop-math-response.jpg",
+      "source_sha256": "8adf4fb3450cd41c757b59e65c2328ca656c7343b2c2c305d9ca8df09459c23f",
+      "kind": "Unmodified recorded application screenshot"
+    },
+    {
+      "file": "programming.jpg",
+      "sha256": "efef0789c9e065f3c57ec7ae49da301b76576ab03b34807bc3218b1b044cc0a8",
+      "source": "frontend-redesign/desktop-python-response.jpg",
+      "source_sha256": "efef0789c9e065f3c57ec7ae49da301b76576ab03b34807bc3218b1b044cc0a8",
+      "kind": "Unmodified recorded application screenshot"
+    },
+    {
+      "file": "sql.jpg",
+      "sha256": "f39f043ecdef9bde13e6f10702ef2ea4a8bc628cceed11220d7ece3f6561be8a",
+      "source": "frontend-redesign/desktop-sql-response.jpg",
+      "source_sha256": "f39f043ecdef9bde13e6f10702ef2ea4a8bc628cceed11220d7ece3f6561be8a",
+      "kind": "Unmodified recorded application screenshot"
+    },
+    {
+      "file": "explanation.jpg",
+      "sha256": "75a74aa28cf1666c424abfe7df96455f69da5f4a03153be6d64f1f444c62eadc",
+      "source": "context-recovery/follow-up-browser.jpg",
+      "source_sha256": "75a74aa28cf1666c424abfe7df96455f69da5f4a03153be6d64f1f444c62eadc",
+      "kind": "Unmodified recorded application screenshot"
+    },
+    {
+      "file": "epitome-showcase.mp4",
+      "sha256": "050eebe9f84392e02066a5dd2ceef6dabcbf307041efccb0ae7ba5354e92df42",
+      "kind": "16-second edited slideshow of the four recorded UI screens above; not a live inference recording",
+      "encoding": "H.264, 1280x800, 24fps, muted; four seconds per source screen"
+    }
+  ],
+  "design_reference": "https://openai.com/index/gpt-6-astra/",
+  "starfield": "Original procedural canvas animation; abstract illustration, not model computation."
+}

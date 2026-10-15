@@ -7,9 +7,10 @@ D=Path(__file__).resolve().parents[1]/'dist'
 ROUTES=['','about','research','research/library','research/reports','advancements','architecture','safety','safety/deployment','resources','contact']
 class Page(HTMLParser):
  def __init__(self,text):
-  super().__init__();self.links=[];self.ids=[];self.tags=[];self.feed(text)
+  super().__init__();self.links=[];self.ids=[];self.tags=[];self.base=None;self.feed(text)
  def handle_starttag(self,tag,attrs):
   a=dict(attrs);self.tags.append((tag,a))
+  if tag=='base':self.base=a.get('href')
   if 'id' in a:self.ids.append(a['id'])
   for k in ('href','src'):
    if a.get(k):self.links.append(a[k])
@@ -25,10 +26,12 @@ class Site(unittest.TestCase):
  def test_every_local_target(self):
   missing=[]
   for path in D.rglob('*.html'):
-   for target in Page(path.read_text()).links:
+   parsed=Page(path.read_text())
+   for target in parsed.links:
     u=urlsplit(target)
     if u.scheme or u.netloc or not u.path:continue
-    p=(D/u.path.lstrip('/')) if u.path.startswith('/') else path.parent/unquote(u.path)
+    folder=D/parsed.base.lstrip('/') if parsed.base else path.parent
+    p=(D/u.path.lstrip('/')) if u.path.startswith('/') else folder/unquote(u.path)
     if p.is_dir():p=p/'index.html'
     if not p.exists():missing.append((str(path.relative_to(D)),target))
   self.assertEqual(missing,[])
