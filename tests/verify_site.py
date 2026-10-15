@@ -21,7 +21,7 @@ class Site(unittest.TestCase):
     text=(D/route/'index.html').read_text();p=Page(text)
     self.assertEqual(len(p.ids),len(set(p.ids)))
     if route in ('','about','research','research/reports','architecture'):self.assertNotIn('id="current-research"',text)
-    if route=='':self.assertIn('Research Update . 15 OCTOBER 2026',text)
+    if route=='':self.assertIn('Research update · 15 October 2026',text)
     if route=='research/library':self.assertNotIn('NOT YET ESTABLISHED',text)
  def test_every_local_target(self):
   missing=[]
@@ -82,7 +82,7 @@ class Site(unittest.TestCase):
   for route in ['research/library','research/index']:
    s=(D/route/'index.html').read_text()
    for version in ['V4','V5','R5','R5.2','R5.3','R5.4']:self.assertIn('value="'+version+'"',s)
-   self.assertIn('<option value="All" selected>All versions</option>',s)
+   self.assertTrue(any(tag=='option' and a.get('value')=='All' and 'selected' in a for tag,a in Page(s).tags))
  def test_advanced_concepts(self):
   s=(D/'architecture/index.html').read_text()
   self.assertIn('Advanced concepts',s)
@@ -92,7 +92,9 @@ class Site(unittest.TestCase):
   self.assertIn('src="/architecture.js"',s)
   for page in D.rglob("*.html"):
    html=page.read_text()
-   if 'class="glass-nav"' in html:self.assertRegex(html,r'<a href="/mind/"(?: aria-current="page")?>Meet Mind</a>')
+   if 'class="glass-nav"' in html and 'archive' not in page.parts:
+    self.assertTrue(any(tag=='a' and attrs.get('href')=='/mind/' for tag,attrs in Page(html).tags))
+    self.assertNotIn('>Meet Mind</a>',html)
   self.assertTrue((D/'assets/architecture-traces.json').exists())
  def test_resource_concept_art(self):
   import xml.etree.ElementTree as ET
@@ -116,6 +118,8 @@ class Site(unittest.TestCase):
   self.assertEqual(form['action'],'https://formsubmit.co/akilanpalaniyappan105@gmail.com')
   self.assertEqual(form['method'],'POST')
   self.assertTrue(any(a.get('name')=='_honey' for t,a in p.tags))
+  for field in ['name','email']:
+   self.assertTrue(any(t=='input' and a.get('name')==field and 'required' in a for t,a in p.tags))
  def test_october_source_hashes(self):
   root=D/'assets/october-2026'
   for row in json.loads((root/'provenance.json').read_text()):

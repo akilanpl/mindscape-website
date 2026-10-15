@@ -45,3 +45,7 @@ Vercel Git deployments require the commit author email to match the linked GitHu
 ## Epitome announcement page
 
 `/mind/` now presents Epitome using a full-screen procedural galaxy, an editorial article, recorded workspace showcases, and accessible benchmark tabs. It uses the supplied Epitome copy with measured scope and limitations retained. Media origins and hashes are recorded in `dist/mind/media/provenance.json`. The former R5.4 page is archived with its evidence intact. No other canonical page was changed in this redesign.
+
+## Premium product launch copy
+
+The October 2026 refinement updates all 13 canonical routes with initiative and Epitome launch copy, consistent public navigation, a shared footer, and a name field in the existing FormSubmit flow. Cinematic media, benchmark controls, scientific assets, version filters, source identities and the archived R5.4 page are preserved. Follow-up explanations retain their feature-branch and verification boundaries.
