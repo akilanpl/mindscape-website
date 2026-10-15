@@ -2,7 +2,7 @@
 (() => {
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
   const canvas=document.querySelector('#epitome-stars'),ctx=canvas.getContext('2d');
-  const header=document.querySelector('.site-header'),root=document.documentElement;
+  const header=document.querySelector('.floating-header'),root=document.documentElement;
   const interaction=document.querySelector('#galaxy-interaction'),replay=document.querySelector('#replay-galaxy');
   const pause=document.querySelector("#pause-galaxy");let paused=reduced.matches;
   function pauseLabel(){pause.textContent=paused?"▶":"Ⅱ";pause.setAttribute("aria-label",paused?"Play star field animation":"Pause star field animation");pause.title=pause.getAttribute("aria-label");}
@@ -54,11 +54,6 @@
     function select(tab,focus=false){tabs.forEach(t=>{const active=t===tab;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;document.getElementById(t.getAttribute('aria-controls')).hidden=!active;});if(focus)tab.focus();}
     tabs.forEach((tab,i)=>{tab.addEventListener('click',()=>select(tab));tab.addEventListener('keydown',e=>{let next;if(e.key==='ArrowRight')next=(i+1)%tabs.length;if(e.key==='ArrowLeft')next=(i+tabs.length-1)%tabs.length;if(e.key==='Home')next=0;if(e.key==='End')next=tabs.length-1;if(next!==undefined){e.preventDefault();select(tabs[next],true);}});});
   });
-  const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#site-menu');
-  function closeMenu(){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation');}
-  menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';nav.classList.toggle('open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation':'Open navigation');});
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){closeMenu();menu.focus();}});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
-  matchMedia('(min-width:601px)').addEventListener('change',e=>{if(e.matches)closeMenu();});
   const video=document.querySelector('#showcase-video');let autoPaused=false,userPaused=false;
   video.addEventListener('pause',()=>{if(!autoPaused&&video.currentTime>0)userPaused=true;});video.addEventListener('play',()=>{userPaused=false;autoPaused=false;});
   if('IntersectionObserver' in window)new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting&&entry.intersectionRatio>.5&&!reduced.matches&&!userPaused&&!document.hidden){video.play().catch(()=>{});}else if(!video.paused){autoPaused=true;video.pause();}}},{threshold:[0,.5,.6]}).observe(video);
