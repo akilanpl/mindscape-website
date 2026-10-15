@@ -39,3 +39,5 @@ All 13 HTML routes include the current project context: the local Candidate C hy
 Eight reports were added to the searchable index (71 total records; 45 historical PDFs preserved). New report exports and the actual workspace screenshot are under `dist/assets/october-2026`, with source hashes in `provenance.json`. R6 training/generalization exports are explicitly labeled excerpts and omit detailed protected per-case predictions. The R5.4 announcement, evidence and interactions remain available below the current Meet Mind introduction.
 
 Validation: `python3 tests/verify_site.py` (17 checks), `python3 tests/test_mind.py` (10 checks), JavaScript syntax and Git whitespace checks passed. Browser QA checked the desktop home and benchmark, 12 canonical pages at 390px without horizontal overflow, and the R6/R6.1/context research filters. No contact form was submitted. Website checks do not rerun or re-certify reported model benchmarks.
+
+Vercel Git deployments require the commit author email to match the linked GitHub account. Use the established repository author identity; a machine-local email can block deployment before the static build begins.
