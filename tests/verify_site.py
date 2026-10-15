@@ -20,7 +20,7 @@ class Site(unittest.TestCase):
     text=(D/route/'index.html').read_text();p=Page(text)
     self.assertEqual(len(p.ids),len(set(p.ids)))
     if route in ('','about','research','research/reports','architecture'):self.assertNotIn('id="current-research"',text)
-    if route=='':self.assertIn('Research Update . 14 OCTOBER 2026',text)
+    if route=='':self.assertIn('Research Update . 15 OCTOBER 2026',text)
     if route=='research/library':self.assertNotIn('NOT YET ESTABLISHED',text)
  def test_every_local_target(self):
   missing=[]
@@ -43,7 +43,7 @@ class Site(unittest.TestCase):
   self.assertEqual(d['engineering_integration'],'PASS');self.assertEqual([r['task_success'] for r in d['results']],[False,False,True,True])
  def test_filters_and_report_urls(self):
   rows=json.loads((D/'research-data.js').read_text().removeprefix('window.MindscapeResearch=').rstrip(';\n'))
-  self.assertEqual(len(rows),63)
+  self.assertEqual(len(rows),71)
   for r in rows:
    p=D/r['url'].lstrip('/') if r.get('url') else D/'assets/reports'/r['file']
    self.assertTrue(p.exists(),str(p))
@@ -113,4 +113,22 @@ class Site(unittest.TestCase):
   self.assertEqual(form['action'],'https://formsubmit.co/akilanpalaniyappan105@gmail.com')
   self.assertEqual(form['method'],'POST')
   self.assertTrue(any(a.get('name')=='_honey' for t,a in p.tags))
+ def test_october_source_hashes(self):
+  root=D/'assets/october-2026'
+  for row in json.loads((root/'provenance.json').read_text()):
+   self.assertEqual(hashlib.sha256((root/row['file']).read_bytes()).hexdigest(),row['sha256'])
+ def test_october_version_and_measurement_boundaries(self):
+  page=(D/'advancements/index.html').read_text()
+  self.assertIn('35/36 consistent worked responses',page)
+  self.assertIn('not a fresh holdout',page)
+  self.assertIn('not in the main snapshot',page)
+  self.assertIn('Candidate C is slower',page)
+  context=(D/'assets/october-2026/context-recovery.md').read_text()
+  self.assertIn('223 passed',context)
+  self.assertIn('explanation_verified: false',context)
+  native=(D/'assets/october-2026/r61-diagnostics.md').read_text()
+  self.assertIn('No R6.1 Kaggle job was submitted',native)
+  for route in ['research/library','research/index']:
+   s=(D/route/'index.html').read_text()
+   for version in ['R6','R6.1','Hybrid','Hybrid context']:self.assertIn('value="'+version+'"',s)
 if __name__=='__main__':unittest.main()

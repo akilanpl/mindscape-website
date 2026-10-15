@@ -1,0 +1,70 @@
+[
+  {
+    "file": "hybrid_candidate_c_results.md",
+    "sha256": "d0f15711043361cf8cd9b07b75b24db6d47695b4741b65c17bdca5347e3a9d7b",
+    "source": "hybrid-integration/HYBRID_CANDIDATE_C_RESULTS.md",
+    "original_sha256": "d0f15711043361cf8cd9b07b75b24db6d47695b4741b65c17bdca5347e3a9d7b",
+    "excerpt": false
+  },
+  {
+    "file": "hybrid_hard_cbse_benchmark.md",
+    "sha256": "2a6c56d9bfbb9d65c6c89090ab05fdc7a812a9f327ffc4a891392052b4b244d8",
+    "source": "hybrid-integration/HYBRID_HARD_CBSE_BENCHMARK.md",
+    "original_sha256": "2a6c56d9bfbb9d65c6c89090ab05fdc7a812a9f327ffc4a891392052b4b244d8",
+    "excerpt": false
+  },
+  {
+    "file": "hybrid_isolation_report.md",
+    "sha256": "5378cc58dfb4e3719d43276efb7c2277f3ea861b8addcc073e5f93243c0fc380",
+    "source": "hybrid-integration/HYBRID_ISOLATION_REPORT.md",
+    "original_sha256": "5378cc58dfb4e3719d43276efb7c2277f3ea861b8addcc073e5f93243c0fc380",
+    "excerpt": false
+  },
+  {
+    "file": "hybrid_removal_guide.md",
+    "sha256": "48df10eb23080d18622f17e7f1f62aea8f06c4d2e48c303591ce6254b9febf51",
+    "source": "hybrid-integration/HYBRID_REMOVAL_GUIDE.md",
+    "original_sha256": "48df10eb23080d18622f17e7f1f62aea8f06c4d2e48c303591ce6254b9febf51",
+    "excerpt": false
+  },
+  {
+    "file": "r6-generalization.md",
+    "sha256": "95786b22837562baba21b11cc9613053fc7ada92523b49366148e6ee58d57637",
+    "source": "r6/R6_GENERALIZATION_REPORT.md",
+    "original_sha256": "41efccadf187030fbceb224310476b53f26095a7dd194fe9905052ed501f8bc9",
+    "excerpt": true
+  },
+  {
+    "file": "r6-training.md",
+    "sha256": "0762ea76ae7bd01e380ceeea7f4de0cf1a0e5acaa4f160d9cdd4d12bf6486e9b",
+    "source": "r6/R6_CLOUD_TRAINING_RESULTS.md",
+    "original_sha256": "2811846ddb83c3a8614acf2d13b22b1e40302449de88885726fc5ddf853d1d32",
+    "excerpt": true
+  },
+  {
+    "file": "r61-diagnostics.md",
+    "sha256": "2b795462e53e735fd992e774871e74047276720605f16c75d3191df81e0b05ee",
+    "source": "r61/R61_COLLAPSE_ROOT_CAUSE.md",
+    "original_sha256": "2b795462e53e735fd992e774871e74047276720605f16c75d3191df81e0b05ee",
+    "excerpt": false
+  },
+  {
+    "file": "workspace-validation.md",
+    "sha256": "91033382ea53ee58007c21b5e77ebb5ae6a1ef33dbc7fd030c2e2360519ea1ca",
+    "source": "frontend-redesign/TEST_RESULTS.md",
+    "original_sha256": "91033382ea53ee58007c21b5e77ebb5ae6a1ef33dbc7fd030c2e2360519ea1ca",
+    "excerpt": false
+  },
+  {
+    "file": "context-recovery.md",
+    "sha256": "e33dba079b9bfbc2946a7bf79fa3dd50a353f8a0948e46bb48e75bd792e27331",
+    "source_url": "https://github.com/akilanpl/mindscape/blob/eaf0c4628bdc7df3e3fc4f29af8b1507c3a1ef8d/integrations/hybrid/CONTEXT_RECOVERY.md",
+    "version": "feature branch eaf0c46; not in main snapshot"
+  },
+  {
+    "file": "workspace.jpg",
+    "sha256": "8adf4fb3450cd41c757b59e65c2328ca656c7343b2c2c305d9ca8df09459c23f",
+    "source": "frontend-redesign/desktop-math-response.jpg",
+    "kind": "Actual local application screenshot, not a hosted assistant"
+  }
+]
