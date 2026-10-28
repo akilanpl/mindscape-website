@@ -1,0 +1,46 @@
+/* Shared interaction refinements, loaded after page styles. */
+html { font-optical-sizing: auto; }
+button, a, summary, input, select, textarea { touch-action: manipulation; }
+button:enabled:active, summary:active, a:active { opacity: .65; }
+:is(a, button, input, select, textarea, summary):focus-visible { outline: 2px solid #326b83; outline-offset: 4px; }
+.mobile-nav-toggle { display: none; }
+.glass-nav .research-menu a { min-height: 2.75rem; }
+.research-menu { transform-origin: top center; }
+.launch-page #launch-title { font-size: clamp(2.625rem, 4.3vw, 4.125rem); letter-spacing: -.035em; }
+.launch-summary { font-size: clamp(1.125rem, 1.75vw, 1.5rem); }
+.icon-button, .film-toggle { min-width: 2.75rem; min-height: 2.75rem; }
+@media (max-width: 760px) {
+  .floating-header.disclosure-header { top: calc(1rem + env(safe-area-inset-top)); left: auto; right: 1rem; transform: none; width: auto; max-width: calc(100% - 2rem); z-index: 50; }
+  .mobile-nav-toggle { display: block; margin-left: auto; min-height: 2.75rem; padding: .6rem 1rem; border: 1px solid #ffffff40; border-radius: 1.5rem; background: #142128f2; color: #f2f6fa; font: inherit; font-size: 1rem; cursor: pointer; }
+  .about-page .mobile-nav-toggle { background: #f0f3f2; color: #18231e; border-color: #18231e33; }
+  .disclosure-header .glass-nav { display: none; }
+  .disclosure-header.nav-open .glass-nav { display: flex; flex-direction: column; align-items: stretch; gap: .25rem; width: min(21rem, calc(100vw - 2rem)); margin-top: .5rem; padding: .75rem; max-height: calc(100svh - 6rem); overflow-y: auto; border-radius: 1.25rem; background: #142128f5; box-shadow: 0 1rem 3rem #0003; }
+  .about-page .disclosure-header.nav-open .glass-nav { background: #f7f9f8fa; }
+  .disclosure-header .glass-nav > a, .disclosure-header .nav-dropdown-trigger, .disclosure-header .glass-nav .research-menu a { font-size: 1rem; line-height: 1.5; min-height: 2.75rem; padding: .625rem .875rem; text-align: left; white-space: normal; }
+  .disclosure-header .nav-research { display: block; }
+  .disclosure-header .nav-dropdown-trigger { width: 100%; }
+  .disclosure-header .research-menu { display: none; position: static; transform: none; min-width: 0; padding: 0 0 0 .75rem; }
+  .disclosure-header .nav-research.is-open .research-menu { display: block; }
+  .disclosure-header .research-menu::before { display: none; }
+  .about-page .about-brand { top: calc(1.7rem + env(safe-area-inset-top)); left: 1.25rem; }
+  .floating-header:not(.disclosure-header) { position: relative; top: 1rem; }
+  .floating-header:not(.disclosure-header) .glass-nav { flex-wrap: wrap; }
+  .floating-header:not(.disclosure-header) .glass-nav > a, .floating-header:not(.disclosure-header) .nav-dropdown-trigger { font-size: .875rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.document-page, html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  .glass-nav, .glass-nav:hover, .about-page .glass-nav, .about-page .glass-nav:hover, .disclosure-header.nav-open .glass-nav, .film-toggle, .icon-button { background: #142128 !important; color: #fff; backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
+  .about-page .glass-nav, .about-page .glass-nav:hover, .about-page .disclosure-header.nav-open .glass-nav { background: #f7f9f8 !important; color: #18231e; }
+  .research-menu::before { background: #142128 !important; backdrop-filter: none; -webkit-backdrop-filter: none; }
+  .about-page .research-menu::before { background: #f7f9f8 !important; }
+  .launch-intro { background: #fff; }
+}
+@media (prefers-contrast: more) {
+  .glass-nav, .research-menu::before, .launch-intro, .mobile-nav-toggle { border: 2px solid currentColor !important; }
+  .glass-nav a, .nav-dropdown-trigger { opacity: 1 !important; }
+  .about-page p, .about-page figcaption { color: #303b34; }
+  .reading .small-note, .eyebrow, .intro-subtitle { color: #e0e9f2; }
+}
