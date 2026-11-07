@@ -1,0 +1,25 @@
+name: Research publication checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check routes, asset hashes, and evidence
+        run: |
+          python3 tests/verify_site.py
+          python3 tests/test_mind.py
+      - name: Check publication scripts
+        run: |
+          node --check dist/research.js
+          node --check dist/mind/mind.js
