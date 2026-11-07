@@ -1,51 +1,73 @@
 # Mindscape website
 
-Mindscape’s complete static research website: cinematic video home, About, research overview/index/reports, Advancements, Architecture, Safety Overview, Deployment Safety, Resources, and Contact.
+**A static research publication and evidence explorer for the Mindscape project.**
 
-## Local preview
+The site presents research reports, architecture, versioned measurements and recorded application showcases across 13 canonical HTML routes. It ships complete HTML/CSS/JavaScript, media and evidence exports under `dist/`; a static server can publish it without installing packages or running a build. Interactive charts select preserved measurements rather than executing models.
 
-Run `python3 -m http.server 4173 --directory dist` and open http://localhost:4173/. No dependencies or build step are required. HTML, CSS, JavaScript, fonts, videos, research documents, data, and figures are all included in `dist/`.
+[Research source](https://github.com/akilanpl/mindscape) · [Evidence exports](dist/assets/) · [Static integrity tests](tests/verify_site.py)
 
-## Vercel
+## Publication architecture
 
-Import this GitHub repository into Vercel. Framework: Other. Root directory: repository root. Output directory: `dist`. No build command. The checked-in `vercel.json` configures static hosting and trailing slash routes. Pushes to `main` should deploy through Vercel’s Git integration.
+```mermaid
+flowchart LR
+    Source[Pinned research commits and reports] --> Export[Versioned exports with SHA-256 provenance]
+    Export --> Assets[Checked-in data, reports and media]
+    Assets --> Pages[Static HTML and JavaScript explorers]
+    Pages --> Host[Static HTTP hosting]
+    Tests[Route, link, hash and evidence checks] --> Assets
+    Tests --> Pages
+```
 
-## Contact form
+The searchable research index contains 71 records, including 45 preserved historical PDFs. Version filters distinguish historical work, R5/R6 research and the hybrid assistant. Reports retain source identities, frozen denominators and experiment outcomes. Feature-branch explanation work is identified separately from the `mindscape` main snapshot.
 
-The two-step form posts to FormSubmit for akilanpalaniyappan105@gmail.com. A setup submission triggered the activation email; the mailbox owner must activate the form before forwarding works. FormSubmit handles its own post-submission confirmation and spam checks.
+Advancements exposes learning-budget, horizon, coding, latency and model-error explorers backed by frozen JSON. Sliders choose recorded cells; exact values and source links remain visible. Architecture pages explain the reasoning lifecycle with preserved traces. `/mind/` presents Epitome with a procedural galaxy, benchmark tabs and recorded workspace showcases; the former R5.4 announcement and its evidence remain under `/mind/archive/r54/`.
 
-## Evidence
+## Evidence and maintenance
 
-Report statements are scoped to the preserved research evidence. Historical validation counts are not new production tests. No deployment security certification is claimed.
+| Path | Responsibility |
+|---|---|
+| [dist/](dist/) | Deployable pages, shared styles/scripts, fonts and media |
+| [dist/research-data.js](dist/research-data.js) | Searchable report catalog and version labels |
+| [dist/assets/v3/](dist/assets/v3/) | Preserved reports, integration traces, chart data and hashes |
+| [dist/assets/october-2026/](dist/assets/october-2026/) | Hybrid/native research exports with provenance |
+| [dist/mind/](dist/mind/) | Current announcement, recorded showcases and historical archive |
+| [scripts/export_mind_evidence.py](scripts/export_mind_evidence.py) | Explicit export from pinned research source |
+| [tests/](tests/) | Static integrity, evidence consistency and interaction-contract checks |
 
-Hero media: nine-second silent writing footage from Pexels, video 33350918 by Kelly (profile @kelly), downloaded October 11, 2026. Source: https://www.pexels.com/video/person-writing-in-notebook-at-desk-33350918/ . License: https://www.pexels.com/license/ (free website use and modification permitted, no endorsement implied). Web encode: 1080×1920 H.264, muted autoplay, loop, no controls. Stock illustration of the research vision, not a Mindscape team member or experiment. Replaces the watermarked OpenArt export.
+`export_mind_evidence.py` requires an explicit `--research` checkout and reads commit `950a17519f43fbc887e41f29ce2e24d4b6036ead`. It exports source-bound historical evidence; it is not a general updater for the current announcement. `scripts/update_v3.py` records an earlier one-time migration. Do not rerun either merely to preview the site. Subsequent editorial changes can be made directly to static files while preserving source URLs, hashes and scientific qualifications.
 
-## V3/V3.1 evidence update — 12 October 2026
+Website checks verify publication consistency, not research reproducibility by themselves. They do not rerun training, inference or benchmarks, and an illustrative animation does not establish model computation. Research execution and scientific conclusions belong to the linked source repository and its experiment receipts.
 
-All eleven canonical pages include current research scope. The library contains ten new Markdown reports alongside 45 preserved historical PDFs. Current source exports, SHA-256 provenance, native integration traces and replay receipts live in `dist/assets/v3/`; historical assets remain unchanged. Current demonstrations are separated from benchmarks and cross-domain transfer remains unestablished.
+## Preview and verify
 
-Validate with `python3 tests/verify_site.py` and `node --check dist/research.js`. Serve `dist` as above. `scripts/update_v3.py` records the one-time source export/content migration (requires the pinned research checkout); checked-in `dist` is deployable without that checkout or a build step. Subsequent editorial fixes are applied directly to static sources.
+Python 3 and Node.js are sufficient for the checks below; no npm installation or build step is required.
 
-The website does not rerun models or expose a research execution endpoint. Contact form behavior remains unchanged; delivery still depends on the mailbox owner's FormSubmit activation. Verification does not send contact submissions.
+```sh
+python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
+```
 
-## Page-specific refinement
+Open `http://127.0.0.1:4173/`. In another terminal:
 
-Home retains its original introduction and has a compact dated research link in the footer. About and Research Overview integrate physics into their existing domain layouts; Reports adds a physics data card. Architecture updates its original sections. Advancements provides five interactive explorers built from preserved measurements: learning budgets, V3.1 horizons, coding comparisons, historical latency and V3 model errors. Sliders select recorded budgets/horizons only. Exact values and source links accompany each graph; graph controls do not run a model. Validate with the nine checks in `tests/verify_site.py` and JavaScript syntax checks. Browser QA covers graph controls, keyboard tabs and mobile overflow.
+```sh
+python3 tests/verify_site.py
+python3 tests/test_mind.py
+node --check dist/research.js
+node --check dist/mind/mind.js
+git diff --check
+```
 
-## October 15, 2026 update
+The two Python suites define 17 site checks and 10 announcement checks: routes/local targets, unique IDs, historical preservation, source hashes, report index, chart values, trace parity, static fallbacks and contact-form boundaries. Historical browser QA covered desktop pages, graph controls, keyboard tabs, research filters and mobile overflow. These recorded checks do not certify a new browser run or contact delivery. For visual changes, inspect reduced motion, keyboard navigation, chart controls and narrow viewports in a real browser as well.
 
-All 13 HTML routes include the current project context: the local Candidate C hybrid STEM assistant, matched hard/release evaluation, the browser-local workspace, and separate native R6/R6.1 findings. The grounded explanation commit `eaf0c46` is labeled as a feature-branch update beyond main `5ad2de4`. No model code, weights, experiments or historical evidence was changed.
+## Static hosting and contact
 
-Eight reports were added to the searchable index (71 total records; 45 historical PDFs preserved). New report exports and the actual workspace screenshot are under `dist/assets/october-2026`, with source hashes in `provenance.json`. R6 training/generalization exports are explicitly labeled excerpts and omit detailed protected per-case predictions. The R5.4 announcement, evidence and interactions remain available in the linked `/mind/archive/r54/` preview.
+The checked-in [Vercel configuration](vercel.json) selects `dist`, clean URLs and trailing-slash routes. Import as framework **Other**, repository root, output **dist**, with no build command. Git integration handles deployments when connected; a README update does not prove a successful deployment. Use the established repository author identity because the linked Vercel account checks commit-author association.
 
-Validation: `python3 tests/verify_site.py` (17 checks), `python3 tests/test_mind.py` (10 checks), JavaScript syntax and Git whitespace checks passed. Browser QA checked the desktop home and benchmark, 12 canonical pages at 390px without horizontal overflow, and the R6/R6.1/context research filters. No contact form was submitted. Website checks do not rerun or re-certify reported model benchmarks.
+The two-step contact form posts to FormSubmit for `akilanpalaniyappan105@gmail.com`. Forwarding depends on mailbox-owner activation; FormSubmit owns its confirmation and spam checks. Static tests inspect the action and fields without submitting messages.
 
-Vercel Git deployments require the commit author email to match the linked GitHub account. Use the established repository author identity; a machine-local email can block deployment before the static build begins.
+## Media provenance
 
-## Epitome announcement page
+The current homepage research film is an AI-generated illustration from Google Flow/Veo 3.1 Lite, with retained watermark, muted audio and a loop edit. [Film provenance](review/film/provenance.json) records original/export hashes and processing; it is not footage of a real experiment. [Epitome media provenance](dist/mind/media/provenance.json) identifies the unmodified application screenshots and their 16-second edited slideshow, which is not a live inference recording. The procedural galaxy is abstract artwork.
 
-`/mind/` now presents Epitome using a full-screen procedural galaxy, an editorial article, recorded workspace showcases, and accessible benchmark tabs. It uses the supplied Epitome copy with measured scope and limitations retained. Media origins and hashes are recorded in `dist/mind/media/provenance.json`. The former R5.4 page is archived with its evidence intact. No other canonical page was changed in this redesign.
+Preserved earlier writing footage is Pexels video **33350918 by Kelly (@kelly)**, downloaded 2026-10-11: [source](https://www.pexels.com/video/person-writing-in-notebook-at-desk-33350918/) · [Pexels license](https://www.pexels.com/license/). Its use illustrates the research vision without implying endorsement or showing a Mindscape team member.
 
-## Premium product launch copy
-
-The October 2026 refinement updates all 13 canonical routes with initiative and Epitome launch copy, consistent public navigation, a shared footer, and a name field in the existing FormSubmit flow. Cinematic media, benchmark controls, scientific assets, version filters, source identities and the archived R5.4 page are preserved. Follow-up explanations retain their feature-branch and verification boundaries.
+Documentation basis: [`925a2b9`](https://github.com/akilanpl/mindscape-website/tree/925a2b9ffae2a30e29adeb9efab0a812dfe80a9c).
